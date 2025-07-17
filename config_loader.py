@@ -1,5 +1,6 @@
 import json
 import logging
+import os
 from dataclasses import dataclass
 
 # 設定を保持するためのデータクラス
@@ -27,6 +28,15 @@ def load_config() -> Config | None:
             credentials_data = json.load(f)
         logger.info("設定ファイルを正常に読み込みました。")
 
+        # harファイルの出力先ディレクトリを作成
+        har_path = config_data.get('output_har_path')
+        if har_path:
+            # パスからディレクトリ部分を取得
+            har_dir = os.path.dirname(har_path)
+            # ディレクトリが存在しない場合に作成
+            if har_dir:
+                os.makedirs(har_dir, exist_ok=True)
+
         # タイムアウト設定のデフォルト値
         timeout_settings = config_data.get('timeout_ms', {})
         
@@ -34,7 +44,7 @@ def load_config() -> Config | None:
         return Config(
             login_url=config_data.get('login_url'),
             video_url=config_data.get('video_url'),
-            har_path=config_data.get('output_har_path'),
+            har_path=har_path,
             video_play_duration=config_data.get('wait_options', {}).get('video_play_duration_sec', 60),
             timeout_navigation=timeout_settings.get('navigation', 20000),
             timeout_visible=timeout_settings.get('element_visible', 15000),
