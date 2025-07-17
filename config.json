@@ -1,0 +1,13 @@
+{
+  "login_url": "https://dip.world-family.co.jp/spdwe_login/",
+  "video_url": "https://dip.world-family.co.jp/spdwe/movie2/1/",
+  "output_har_path": "./network_log.har",
+  "wait_options": {
+    "video_play_duration_sec": 60
+  },
+  "timeout_ms": {
+    "navigation": 20000,
+    "element_visible": 15000,
+    "element_click": 10000
+  }
+}

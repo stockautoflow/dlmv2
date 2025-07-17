@@ -1,0 +1,14 @@
+# 認証情報ファイル
+credentials.json
+
+# 出力されるHARファイル
+*.har
+
+# Pythonのキャッシュファイル
+__pycache__/
+
+input/*
+venv/*
+
+debug*
+
