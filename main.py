@@ -8,13 +8,12 @@ from logger_setup import setup_logging
 from config_loader import load_config
 from login_actions import perform_login
 from video_actions import play_video
-from har_parser import extract_m3u8_urls, save_extracted_urls
+from har_parser import extract_m3u8_url, save_extracted_urls
 
 def main():
     """
     全体の処理を管理するメイン関数
     """
-    # --- ログと設定の初期化 ---
     setup_logging()
     logger = logging.getLogger(__name__)
 
@@ -27,7 +26,6 @@ def main():
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(channel="chrome", headless=False)
         
-        # --- ログイン処理と認証情報の保存 ---
         logger.info("--- ログイン処理と認証情報保存を開始 ---")
         user_agent = (
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -42,55 +40,64 @@ def main():
         logger.info("認証情報を取得しました。")
         temp_context.close()
         
-        # --- 動画のループ処理 ---
-        for video_id in range(config.video_range_start, config.video_range_end + 1):
-            
-            # リトライ処理
-            for attempt in range(config.retry_count + 1): # 初回実行 + リトライ回数
-                context = None
-                har_path = os.path.join(config.har_directory, f"video_{video_id}.har")
-                
-                try:
-                    logger.info(f"--- Video ID: {video_id} の処理を開始 (試行: {attempt + 1}/{config.retry_count + 1}) ---")
-                    
-                    context = browser.new_context(
-                        storage_state=storage_state,
-                        record_har_path=har_path,
-                        user_agent=user_agent
-                    )
-                    loop_page = context.new_page()
+        # --- ルールベースのループ処理 ---
+        for rule in config.video_processing_rules:
+            id_range = rule.get('id_range', {})
+            start_id = id_range.get('start')
+            end_id = id_range.get('end')
+            versions = rule.get('versions', [])
 
-                    video_url = f"{config.video_url_base}{video_id}/"
-                    play_video(loop_page, video_url, config)
-                    
-                    # コンテキストを閉じてHARファイルへの書き込みを完了させる
-                    context.close()
-                    context = None # 二重クローズを防止
-                    logger.info(f"Video ID {video_id} (試行 {attempt + 1}) のコンテキストを閉じ、HARファイルを保存しました: {har_path}")
+            if start_id is None or end_id is None:
+                continue
 
-                    # HAR解析とURLの有無チェックをtryブロック内に移動
-                    urls = extract_m3u8_urls(har_path)
-                    if not urls:
-                        # URLが見つからない場合はエラーを発生させてリトライさせる
-                        raise ValueError("指定されたパターンのURLが見つかりませんでした。")
+            for video_id in range(start_id, end_id + 1):
+                if video_id not in all_extracted_urls:
+                    all_extracted_urls[video_id] = {}
 
-                    # 成功した場合、結果を保存してリトライを終了
-                    all_extracted_urls[video_id] = urls
-                    logger.info(f"Video ID: {video_id} の処理に成功しました。")
-                    break
+                for version in versions:
+                    for attempt in range(config.retry_count + 1):
+                        context = None
+                        ver_str = f"ver_{version}" if version is not None else "ver_none"
+                        har_path = os.path.join(config.har_directory, f"video_{video_id}_{ver_str}.har")
+                        
+                        try:
+                            logger.info(f"--- Video ID: {video_id} (Ver: {version or 'N/A'}) の処理を開始 (試行: {attempt + 1}/{config.retry_count + 1}) ---")
+                            
+                            context = browser.new_context(
+                                storage_state=storage_state,
+                                record_har_path=har_path,
+                                user_agent=user_agent
+                            )
+                            loop_page = context.new_page()
 
-                except Exception as e:
-                    # ログにはエラーの詳細を残すが、スタックトレースは冗長なので省略
-                    logger.error(f"Video ID {video_id} の処理中にエラー (試行 {attempt + 1}): {e}")
-                    if attempt < config.retry_count:
-                        logger.info("リトライします...")
-                        time.sleep(3) # リトライ前に3秒待機
-                    else:
-                        logger.error(f"Video ID {video_id} のリトライ上限に達しました。")
-                finally:
-                    # tryブロックでエラーが発生した場合に備え、コンテキストを確実に閉じる
-                    if context:
-                        context.close()
+                            video_url = f"{config.video_url_base}{video_id}/"
+                            if version is not None:
+                                video_url += f"?ver={version}"
+                            
+                            play_video(loop_page, video_url, config)
+                            
+                            context.close()
+                            context = None
+                            logger.info(f"Video ID {video_id} Ver:{version or 'N/A'} (試行 {attempt + 1}) のコンテキストを閉じ、HARを保存しました: {har_path}")
+
+                            url = extract_m3u8_url(har_path)
+                            if not url:
+                                raise ValueError("指定されたパターンのURLが見つかりませんでした。")
+
+                            all_extracted_urls[video_id][version] = url
+                            logger.info(f"Video ID: {video_id} Ver:{version or 'N/A'} の処理に成功しました。")
+                            break
+
+                        except Exception as e:
+                            logger.error(f"Video ID {video_id} Ver:{version or 'N/A'} の処理中にエラー (試行 {attempt + 1}): {e}")
+                            if attempt < config.retry_count:
+                                logger.info("リトライします...")
+                                time.sleep(3)
+                            else:
+                                logger.error(f"Video ID {video_id} Ver:{version or 'N/A'} のリトライ上限に達しました。")
+                        finally:
+                            if context:
+                                context.close()
 
         # --- 終了処理 ---
         output_dir = "urls"
@@ -98,14 +105,9 @@ def main():
         output_filename = f"urls_{timestamp}.yaml"
         output_path = os.path.join(output_dir, output_filename)
         
-        save_extracted_urls(
-            all_extracted_urls,
-            output_path,
-            config.video_range_start,
-            config.video_range_end
-        )
+        save_extracted_urls(all_extracted_urls, output_path, config.video_processing_rules)
 
-        if not all_extracted_urls:
+        if not any(all_extracted_urls.values()):
             logger.info("対象のURLは一件も見つかりませんでした。")
 
         browser.close()
