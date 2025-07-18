@@ -6,12 +6,12 @@
   "video_processing_rules": [
     {
       "description": "ID 1-131はVER1-3まで処理",
-      "id_range": { "start": 1, "end": 3 },
+      "id_range": { "start": 1, "end": 131 },
       "versions": [1, 2, 3]
     },
     {
       "description": "ID 132-165はバージョン指定なしで処理",
-      "id_range": { "start": 132, "end": 135 },
+      "id_range": { "start": 132, "end": 165 },
       "versions": [null]
     }
   ],
