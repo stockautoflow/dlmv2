@@ -1,12 +1,20 @@
 {
   "login_url": "https://dip.world-family.co.jp/spdwe_login/",
   "video_url_base": "https://dip.world-family.co.jp/spdwe/movie2/",
-  "video_range": {
-    "start": 1,
-    "end": 2
-  },
   "output_har_directory": "har",
   "retry_count": 2,
+  "video_processing_rules": [
+    {
+      "description": "ID 1-131はVER1-3まで処理",
+      "id_range": { "start": 1, "end": 131 },
+      "versions": [1, 2, 3]
+    },
+    {
+      "description": "ID 132-165はバージョン指定なしで処理",
+      "id_range": { "start": 132, "end": 165 },
+      "versions": [null]
+    }
+  ],
   "wait_options": {
     "video_play_duration_sec": 1
   },

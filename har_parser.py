@@ -2,17 +2,16 @@ import json
 import logging
 import re
 import os
-from typing import Dict, List
+from typing import Dict, List, Any
 import yaml
 
 logger = logging.getLogger(__name__)
 
-def extract_m3u8_urls(har_path: str) -> List[str]:
+def extract_m3u8_url(har_path: str) -> str | None:
     """
-    HARファイルから "_9.m3u8" で終わるURLを抽出する
+    HARファイルから "_9.m3u8" で終わるURLを抽出し、最初の1件を返す
     """
     logger.info(f"HARファイルからURLを抽出します: {har_path}")
-    extracted_urls = []
     url_pattern = re.compile(r"https://.*_9\.m3u8")
 
     try:
@@ -22,57 +21,80 @@ def extract_m3u8_urls(har_path: str) -> List[str]:
         entries = har_data.get('log', {}).get('entries', [])
         if not entries:
             logger.warning(f"HARファイルにエントリが見つかりませんでした: {har_path}")
-            return []
+            return None
 
         for entry in entries:
             url = entry.get('request', {}).get('url', '')
-            if url_pattern.match(url) and url not in extracted_urls:
+            if url_pattern.match(url):
                 logger.debug(f"一致するURLを発見: {url}")
-                extracted_urls.append(url)
+                return url # 最初の1件が見つかったらすぐに返す
         
-        if not extracted_urls:
-            logger.warning("指定されたパターンのURLは見つかりませんでした。")
-
-        return extracted_urls
+        logger.warning("指定されたパターンのURLは見つかりませんでした。")
+        return None
 
     except FileNotFoundError:
         logger.error(f"HARファイルが見つかりません: {har_path}")
-        return []
+        return None
     except json.JSONDecodeError:
         logger.error(f"HARファイルの形式が正しくありません: {har_path}")
-        return []
+        return None
     except Exception as e:
         logger.error(f"HARファイルの処理中にエラーが発生しました: {e}", exc_info=True)
-        return []
+        return None
 
 def save_extracted_urls(
-    all_urls: Dict[int, List[str]],
+    all_urls: Dict[int, Dict[Any, str]],
     output_path: str,
-    video_range_start: int,
-    video_range_end: int
+    rules: List[Dict[str, Any]]
 ):
     """
-    抽出したすべてのURLをYAML形式でテキストファイルに保存する
-    URLが見つからなかったIDにはERRORと表示する
+    抽出したすべてのURLを設計書通りのYAML形式で保存する
     """
     logger.info(f"抽出したURLをYAMLファイルに保存します: {output_path}")
     
-    # YAMLに出力するためのデータ構造を作成
     output_data = []
-    for video_id in range(video_range_start, video_range_end + 1):
-        urls = all_urls.get(video_id)
-        if urls:
-            output_data.append({'id': video_id, 'urls': urls})
-        else:
-            output_data.append({'id': video_id, 'status': 'ERROR'})
+    
+    processed_ids = set()
+
+    for rule in rules:
+        id_range = rule.get('id_range', {})
+        start_id = id_range.get('start')
+        end_id = id_range.get('end')
+        versions = rule.get('versions', [])
+
+        if start_id is None or end_id is None:
+            continue
+
+        for video_id in range(start_id, end_id + 1):
+            if video_id in processed_ids:
+                continue
+            processed_ids.add(video_id)
+
+            video_results = all_urls.get(video_id, {})
             
+            # バージョン指定がないルールの場合 (versions: [null])
+            if versions == [None]:
+                url = video_results.get(None)
+                if url:
+                    output_data.append({'id': video_id, 'url': url})
+                else:
+                    output_data.append({'id': video_id, 'status': 'ERROR'})
+            # バージョン指定があるルールの場合
+            else:
+                version_list = []
+                for ver in versions:
+                    url = video_results.get(ver)
+                    if url:
+                        version_list.append({'ver': ver, 'url': url})
+                    else:
+                        version_list.append({'ver': ver, 'status': 'ERROR'})
+                output_data.append({'id': video_id, 'versions': version_list})
+
     try:
-        # 出力先ディレクトリが存在しない場合に作成
         output_dir = os.path.dirname(output_path)
         if output_dir:
             os.makedirs(output_dir, exist_ok=True)
 
-        # YAML形式でファイルに書き出す
         with open(output_path, 'w', encoding='utf-8') as f:
             yaml.dump(output_data, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
             
