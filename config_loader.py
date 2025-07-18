@@ -4,6 +4,13 @@ import os
 from dataclasses import dataclass, field
 from typing import List, Dict, Any
 
+# メタデータを保持するためのデータクラス
+@dataclass
+class VideoMetadata:
+    lesson: str
+    song_number: str
+    title: str
+
 # 設定を保持するためのデータクラス
 @dataclass
 class Config:
@@ -31,14 +38,11 @@ def load_config() -> Config | None:
             credentials_data = json.load(f)
         logger.info("設定ファイルを正常に読み込みました。")
 
-        # harファイルの出力先ディレクトリを作成
         har_dir = config_data.get('output_har_directory', 'har')
         os.makedirs(har_dir, exist_ok=True)
 
-        # タイムアウト設定のデフォルト値
         timeout_settings = config_data.get('timeout_ms', {})
         
-        # Configオブジェクトを作成して返す
         return Config(
             login_url=config_data.get('login_url'),
             video_url_base=config_data.get('video_url_base'),
