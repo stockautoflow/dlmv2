@@ -1,21 +1,14 @@
 import logging
 from playwright.sync_api import Page
-from config_loader import Config
-from countdown_timer import start_countdown
+from utils.config_loader import Config
+from utils.countdown_timer import start_countdown
 
 logger = logging.getLogger(__name__)
 
-def play_video(page: Page, video_url: str, config: Config):
-    """
-    指定された動画URLに遷移し、再生を開始し、待機する
-    """
-    # この関数はメタデータ取得のためにページアクセスを行わない
-    # page.goto(video_url, wait_until='domcontentloaded')
-
+def play_video(page: Page, config: Config):
     logger.info("キーボード操作による動画の再生を開始します。")
     
     try:
-        # ページのフォーカスの猶予として2秒待機
         logger.debug("ページのフォーカスを待機します...")
         page.wait_for_timeout(2000)
 
@@ -32,11 +25,9 @@ def play_video(page: Page, video_url: str, config: Config):
 
         logger.debug("再生開始を待機します...")
         page.wait_for_timeout(2000)
-
     except Exception as e:
         logger.error(f"キーボード操作による動画再生に失敗しました: {e}")
         raise 
 
     start_countdown(config.video_play_duration)
-    
     logger.info("動画の再生待機を終了します。")

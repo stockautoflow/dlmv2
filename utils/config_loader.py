@@ -4,14 +4,12 @@ import os
 from dataclasses import dataclass, field
 from typing import List, Dict, Any
 
-# メタデータを保持するためのデータクラス
 @dataclass
 class VideoMetadata:
     lesson: str
     song_number: str
     title: str
 
-# 設定を保持するためのデータクラス
 @dataclass
 class Config:
     login_url: str
@@ -27,14 +25,11 @@ class Config:
     video_processing_rules: List[Dict[str, Any]] = field(default_factory=list)
 
 def load_config() -> Config | None:
-    """
-    config.jsonとcredentials.jsonを読み込み、設定を格納したデータクラスを返す
-    """
     logger = logging.getLogger(__name__)
     try:
-        with open('config.json', 'r', encoding='utf-8') as f:
+        with open('config/config.json', 'r', encoding='utf-8') as f:
             config_data = json.load(f)
-        with open('credentials.json', 'r', encoding='utf-8') as f:
+        with open('config/credentials.json', 'r', encoding='utf-8') as f:
             credentials_data = json.load(f)
         logger.info("設定ファイルを正常に読み込みました。")
 
@@ -56,12 +51,8 @@ def load_config() -> Config | None:
             username=credentials_data.get('username'),
             password=credentials_data.get('password')
         )
-
     except FileNotFoundError as e:
         logger.error(f"設定ファイルが見つかりません: {e.filename}")
-        return None
-    except json.JSONDecodeError:
-        logger.error("設定ファイルの形式が正しくありません（JSONではありません）。")
         return None
     except Exception as e:
         logger.error(f"設定の読み込み中にエラーが発生しました: {e}")

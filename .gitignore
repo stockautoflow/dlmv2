@@ -1,15 +1,20 @@
-# 認証情報ファイル
-credentials.json
+# 設定ファイル
+config/credentials.json
 
-# 出力されるHARファイル
-*.har
+# 出力ディレクトリ
+har/
+log/
+urls/
 
-# Pythonのキャッシュファイル
+# Python関連
 __pycache__/
+*.pyc
+.venv/
+venv/
 
-input/*
-venv/*
+# IDE/Editor
+.vscode/
+.idea/
 
-debug*
-log/*
-urls/*
+input/
+old/

@@ -1,13 +1,10 @@
 import logging
 from playwright.sync_api import Page, expect
-from config_loader import Config
+from utils.config_loader import Config
 
 logger = logging.getLogger(__name__)
 
 def perform_login(page: Page, config: Config):
-    """
-    ログイン処理を実行する
-    """
     logger.info(f"ログインページにアクセスします: {config.login_url}")
     page.goto(config.login_url, wait_until='domcontentloaded')
 
@@ -27,7 +24,6 @@ def perform_login(page: Page, config: Config):
     with page.expect_navigation(wait_until="load", timeout=config.timeout_navigation):
         login_button.click()
     
-    logger.debug(f"ログイン後のURL: {page.url}")
     if page.url == config.login_url:
         raise Exception("ログインに失敗しました。URLが変わりませんでした。")
     logger.info("ログイン成功を確認しました。")
