@@ -7,8 +7,11 @@ from dataclasses import dataclass
 @dataclass
 class Config:
     login_url: str
-    video_url: str
-    har_path: str
+    video_url_base: str
+    video_range_start: int
+    video_range_end: int
+    har_directory: str
+    retry_count: int
     video_play_duration: int
     timeout_navigation: int
     timeout_visible: int
@@ -29,22 +32,21 @@ def load_config() -> Config | None:
         logger.info("設定ファイルを正常に読み込みました。")
 
         # harファイルの出力先ディレクトリを作成
-        har_path = config_data.get('output_har_path')
-        if har_path:
-            # パスからディレクトリ部分を取得
-            har_dir = os.path.dirname(har_path)
-            # ディレクトリが存在しない場合に作成
-            if har_dir:
-                os.makedirs(har_dir, exist_ok=True)
+        har_dir = config_data.get('output_har_directory', 'har')
+        os.makedirs(har_dir, exist_ok=True)
 
         # タイムアウト設定のデフォルト値
         timeout_settings = config_data.get('timeout_ms', {})
+        video_range = config_data.get('video_range', {})
         
         # Configオブジェクトを作成して返す
         return Config(
             login_url=config_data.get('login_url'),
-            video_url=config_data.get('video_url'),
-            har_path=har_path,
+            video_url_base=config_data.get('video_url_base'),
+            video_range_start=video_range.get('start', 1),
+            video_range_end=video_range.get('end', 1),
+            har_directory=har_dir,
+            retry_count=config_data.get('retry_count', 2),
             video_play_duration=config_data.get('wait_options', {}).get('video_play_duration_sec', 60),
             timeout_navigation=timeout_settings.get('navigation', 20000),
             timeout_visible=timeout_settings.get('element_visible', 15000),

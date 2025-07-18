@@ -1,7 +1,12 @@
 {
   "login_url": "https://dip.world-family.co.jp/spdwe_login/",
-  "video_url": "https://dip.world-family.co.jp/spdwe/movie2/1/",
-  "output_har_path": "har/network_log.har",
+  "video_url_base": "https://dip.world-family.co.jp/spdwe/movie2/",
+  "video_range": {
+    "start": 1,
+    "end": 165
+  },
+  "output_har_directory": "har",
+  "retry_count": 2,
   "wait_options": {
     "video_play_duration_sec": 1
   },
