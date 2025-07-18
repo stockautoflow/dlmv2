@@ -26,5 +26,5 @@
    ※ `../urls/urls_YYYY-MM-DD-HHMMSS.yaml` の部分は、実際のファイルパスに置き換えてください。
 
 ## 出力
-- ダウンロードされた動画は、`downloader`ディレクトリ内に、`SingAlong_Lyrics/01/`のような形式で保存されます。
+- ダウンロードされた動画は、`downloader/VIDEO/`ディレクトリ内に、`SingAlong_Lyrics/01/`のような形式で保存されます。
 - 実行ログは`downloader/log/`ディレクトリに保存されます。

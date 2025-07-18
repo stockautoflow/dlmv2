@@ -43,7 +43,6 @@ def main(yaml_path: str):
     for i, task in enumerate(download_queue):
         dir_path = task["dir_path"]
         file_name = task["file_name"]
-        # ★★★ 修正点: m3u8のURLを直接使う ★★★
         download_url = task["download_url"]
         
         full_path = os.path.join(dir_path, file_name)

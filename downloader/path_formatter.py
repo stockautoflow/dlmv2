@@ -44,7 +44,6 @@ def format_download_tasks(item: Dict[str, Any]) -> list:
                 continue
             
             ver = version_info.get('ver')
-            # ★★★ 修正点: m3u8のURLをYAMLから直接取得 ★★★
             download_url = version_info.get('url')
             if not download_url:
                 continue
@@ -56,7 +55,7 @@ def format_download_tasks(item: Dict[str, Any]) -> list:
             song_num_prefix = song_number.split('-')[0]
             number_dir = SONG_NUMBER_DIR_MAP.get(song_num_prefix, song_num_prefix)
             
-            dir_path = os.path.join(root_dir, number_dir)
+            dir_path = os.path.join("VIDEO", root_dir, number_dir)
 
             song_num_suffix = song_number.split('-')[1]
             numeric_suffix_match = re.search(r'\d+', song_num_suffix)
@@ -81,7 +80,7 @@ def format_download_tasks(item: Dict[str, Any]) -> list:
         lesson_dir = _sanitize_filename(lesson)
         song_num_prefix = song_number.split('-')[0]
         number_dir = SONG_NUMBER_DIR_MAP.get(song_num_prefix, song_num_prefix)
-        dir_path = os.path.join(lesson_dir, number_dir)
+        dir_path = os.path.join("VIDEO", lesson_dir, number_dir)
 
         song_num_suffix = song_number.split('-')[1]
         numeric_suffix_match = re.search(r'\d+', song_num_suffix)

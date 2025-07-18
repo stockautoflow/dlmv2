@@ -22,7 +22,6 @@ def download_video(download_url: str, full_output_path: str) -> bool:
         "yt-dlp",
         "--quiet",
         "--no-warnings",
-        # ★★★ 修正点: プロトコルを許可するオプションを追加 ★★★
         "--allow-unplayable-formats",
         "-o", full_output_path,
         download_url

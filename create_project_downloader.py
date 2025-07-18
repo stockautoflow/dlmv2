@@ -51,7 +51,6 @@ def main(yaml_path: str):
     for i, task in enumerate(download_queue):
         dir_path = task["dir_path"]
         file_name = task["file_name"]
-        # ★★★ 修正点: m3u8のURLを直接使う ★★★
         download_url = task["download_url"]
         
         full_path = os.path.join(dir_path, file_name)
@@ -117,7 +116,6 @@ def download_video(download_url: str, full_output_path: str) -> bool:
         "yt-dlp",
         "--quiet",
         "--no-warnings",
-        # ★★★ 修正点: プロトコルを許可するオプションを追加 ★★★
         "--allow-unplayable-formats",
         "-o", full_output_path,
         download_url
@@ -184,7 +182,6 @@ def format_download_tasks(item: Dict[str, Any]) -> list:
                 continue
             
             ver = version_info.get('ver')
-            # ★★★ 修正点: m3u8のURLをYAMLから直接取得 ★★★
             download_url = version_info.get('url')
             if not download_url:
                 continue
@@ -196,7 +193,7 @@ def format_download_tasks(item: Dict[str, Any]) -> list:
             song_num_prefix = song_number.split('-')[0]
             number_dir = SONG_NUMBER_DIR_MAP.get(song_num_prefix, song_num_prefix)
             
-            dir_path = os.path.join(root_dir, number_dir)
+            dir_path = os.path.join("VIDEO", root_dir, number_dir)
 
             song_num_suffix = song_number.split('-')[1]
             numeric_suffix_match = re.search(r'\\d+', song_num_suffix)
@@ -221,7 +218,7 @@ def format_download_tasks(item: Dict[str, Any]) -> list:
         lesson_dir = _sanitize_filename(lesson)
         song_num_prefix = song_number.split('-')[0]
         number_dir = SONG_NUMBER_DIR_MAP.get(song_num_prefix, song_num_prefix)
-        dir_path = os.path.join(lesson_dir, number_dir)
+        dir_path = os.path.join("VIDEO", lesson_dir, number_dir)
 
         song_num_suffix = song_number.split('-')[1]
         numeric_suffix_match = re.search(r'\\d+', song_num_suffix)
@@ -274,13 +271,6 @@ def setup_logging():
     logger.addHandler(console_handler)
 """,
 
-    # --- 設定ファイル ---
-    "downloader/config/config.json": """
-{
-  "video_url_base": "https://dip.world-family.co.jp/spdwe/movie2/"
-}
-""",
-
     # --- 依存ライブラリ ---
     "downloader/requirements.txt": """
 pyyaml
@@ -317,7 +307,7 @@ yt-dlp
    ※ `../urls/urls_YYYY-MM-DD-HHMMSS.yaml` の部分は、実際のファイルパスに置き換えてください。
 
 ## 出力
-- ダウンロードされた動画は、`downloader`ディレクトリ内に、`SingAlong_Lyrics/01/`のような形式で保存されます。
+- ダウンロードされた動画は、`downloader/VIDEO/`ディレクトリ内に、`SingAlong_Lyrics/01/`のような形式で保存されます。
 - 実行ログは`downloader/log/`ディレクトリに保存されます。
 """
 }
