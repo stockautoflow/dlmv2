@@ -3,6 +3,7 @@ import logging
 import re
 import os
 from typing import Dict, List
+import yaml
 
 logger = logging.getLogger(__name__)
 
@@ -51,31 +52,30 @@ def save_extracted_urls(
     video_range_end: int
 ):
     """
-    抽出したすべてのURLをテキストファイルに保存する
+    抽出したすべてのURLをYAML形式でテキストファイルに保存する
     URLが見つからなかったIDにはERRORと表示する
     """
-    logger.info(f"抽出したURLをファイルに保存します: {output_path}")
+    logger.info(f"抽出したURLをYAMLファイルに保存します: {output_path}")
+    
+    # YAMLに出力するためのデータ構造を作成
+    output_data = []
+    for video_id in range(video_range_start, video_range_end + 1):
+        urls = all_urls.get(video_id)
+        if urls:
+            output_data.append({'id': video_id, 'urls': urls})
+        else:
+            output_data.append({'id': video_id, 'status': 'ERROR'})
+            
     try:
         # 出力先ディレクトリが存在しない場合に作成
         output_dir = os.path.dirname(output_path)
         if output_dir:
             os.makedirs(output_dir, exist_ok=True)
 
+        # YAML形式でファイルに書き出す
         with open(output_path, 'w', encoding='utf-8') as f:
-            f.write("--- 抽出されたURL一覧 ---\n\n")
-            # configで指定された範囲のすべてのIDをループする
-            for video_id in range(video_range_start, video_range_end + 1):
-                f.write(f"▼ Video ID: {video_id}\n")
-                # IDに対応するURLリストを取得。なければNone
-                urls = all_urls.get(video_id)
-                if urls:
-                    # URLがあれば書き出す
-                    for url in urls:
-                        f.write(f"{url}\n")
-                else:
-                    # ★★★ 修正点: URLがなければERRORと書き出す ★★★
-                    f.write("ERROR\n")
-                f.write("\n")
-        logger.info("URLのファイルへの保存が完了しました。")
+            yaml.dump(output_data, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
+            
+        logger.info("URLのYAMLファイルへの保存が完了しました。")
     except Exception as e:
         logger.error(f"URLのファイル保存中にエラーが発生しました: {e}", exc_info=True)

@@ -68,7 +68,7 @@ def main():
                     context = None # 二重クローズを防止
                     logger.info(f"Video ID {video_id} (試行 {attempt + 1}) のコンテキストを閉じ、HARファイルを保存しました: {har_path}")
 
-                    # ★★★ 修正点: HAR解析とURLの有無チェックをtryブロック内に移動 ★★★
+                    # HAR解析とURLの有無チェックをtryブロック内に移動
                     urls = extract_m3u8_urls(har_path)
                     if not urls:
                         # URLが見つからない場合はエラーを発生させてリトライさせる
@@ -95,7 +95,7 @@ def main():
         # --- 終了処理 ---
         output_dir = "urls"
         timestamp = datetime.now().strftime("%Y-%m-%d-%H%M%S")
-        output_filename = f"urls_{timestamp}.txt"
+        output_filename = f"urls_{timestamp}.yaml"
         output_path = os.path.join(output_dir, output_filename)
         
         save_extracted_urls(
