@@ -6,7 +6,7 @@ from core.browser_manager import BrowserManager
 from utils.config_loader import load_config
 from actions.video_actions import play_video
 from parsers.metadata_parser import extract_metadata
-from parsers.har_parser import extract_m3u8_url
+from parsers.url_finder import UrlFinder
 from reporters.yaml_reporter import save_results
 
 logger = logging.getLogger(__name__)
@@ -52,15 +52,12 @@ class TaskProcessor:
         """ 1つの動画処理タスクをリトライロジック付きで実行する """
         for attempt in range(self.config.retry_count + 1):
             context = None
-            ver_str = f"ver_{version}" if version is not None else "ver_none"
-            har_path = os.path.join(self.config.har_directory, f"video_{video_id}_{ver_str}.har")
-            
             try:
                 logger.info(f"--- Video ID: {video_id} (Ver: {version or 'N/A'}) の処理を開始 (試行: {attempt + 1}/{self.config.retry_count + 1}) ---")
                 
+                # HAR記録オプションなしでコンテキストを作成
                 context = self.browser_manager.browser.new_context(
                     storage_state=self.browser_manager.storage_state,
-                    record_har_path=har_path,
                     user_agent=self.browser_manager.user_agent
                 )
                 page = context.new_page()
@@ -69,21 +66,27 @@ class TaskProcessor:
                 if version is not None:
                     video_url += f"?ver={version}"
                 
+                # ★★★ 修正点: 正規表現のバックスラッシュを修正 ★★★
+                # URL監視を開始
+                finder = UrlFinder(page, r"https://.*_9\.m3u8")
+
+                # ページに移動
                 page.goto(video_url, wait_until='domcontentloaded')
                 
+                # メタデータを抽出
                 if self.all_results[video_id]["metadata"] is None:
                     metadata = extract_metadata(page)
                     if not metadata: raise ValueError("メタデータの抽出に失敗しました。")
                     self.all_results[video_id]["metadata"] = metadata
 
+                # 動画再生をトリガー
                 play_video(page, self.config)
                 
-                context.close()
-                context = None
-                logger.info(f"Video ID {video_id} Ver:{version or 'N/A'} のコンテキストを閉じ、HARを保存しました。")
-
-                url = extract_m3u8_url(har_path)
-                if not url: raise ValueError("指定されたパターンのURLが見つかりませんでした。")
+                # URLが捕捉されるのを待つ (15秒)
+                url = finder.wait_for_url(timeout=15000)
+                
+                if not url:
+                    raise ValueError("指定されたパターンのURLが見つかりませんでした。")
 
                 self.all_results[video_id]["versions"][version] = url
                 logger.info(f"Video ID: {video_id} Ver:{version or 'N/A'} の処理に成功しました。")
@@ -99,6 +102,7 @@ class TaskProcessor:
             finally:
                 if context:
                     context.close()
+                    logger.info(f"Video ID {video_id} Ver:{version or 'N/A'} のコンテキストを閉じました。")
 
     def _save_final_report(self):
         """ 最終的な結果をファイルに保存する """
