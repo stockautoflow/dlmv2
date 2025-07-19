@@ -1,6 +1,6 @@
 import logging
 from playwright.sync_api import Page, expect
-from utils.config_loader import Config
+from src.utils.config_loader import Config
 
 logger = logging.getLogger(__name__)
 

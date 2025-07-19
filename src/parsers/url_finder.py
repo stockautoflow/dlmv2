@@ -17,14 +17,11 @@ class UrlFinder:
         self.page.on("request", self._handle_request)
 
     def _handle_request(self, request: Request):
-        # 既にURLが見つかっている場合は何もしない
         if self.found_url:
             return
-        # パターンに一致するかチェック
         if self.pattern.match(request.url):
             logger.debug(f"目的のパターンのURLを捕捉しました: {request.url}")
             self.found_url = request.url
-            # 一度見つかったらリスナーを解除して効率化
             self.page.remove_listener("request", self._handle_request)
 
     def wait_for_url(self, timeout: int) -> str | None:
@@ -36,14 +33,11 @@ class UrlFinder:
         while time.time() - start_time < (timeout / 1000):
             if self.found_url:
                 return self.found_url
-            # 短いスリープでCPUを過剰に消費しないようにする
             time.sleep(0.1)
         
-        # タイムアウト後にもう一度リスナーを解除しておく（念のため）
         try:
             self.page.remove_listener("request", self._handle_request)
         except Exception:
-            # すでに解除されている場合はエラーになるが無視する
             pass
             
         return self.found_url
