@@ -1,7 +1,7 @@
 import logging
 from playwright.sync_api import Page
-from utils.config_loader import Config
-from utils.countdown_timer import start_countdown
+from src.utils.config_loader import Config
+from src.utils.countdown_timer import start_countdown
 
 logger = logging.getLogger(__name__)
 

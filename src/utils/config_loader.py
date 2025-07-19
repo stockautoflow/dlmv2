@@ -24,14 +24,16 @@ class Config:
     video_processing_rules: List[Dict[str, Any]] = field(default_factory=list)
 
 def load_config() -> Config | None:
-    """
-    config/ ディレクトリから設定ファイルを読み込み、設定オブジェクトを返す
-    """
     logger = logging.getLogger(__name__)
     try:
-        with open('config/config.json', 'r', encoding='utf-8') as f:
+        # configディレクトリのパスをスクリプトからの相対パスで指定
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        config_path = os.path.join(base_dir, '..', 'config', 'config.json')
+        credentials_path = os.path.join(base_dir, '..', 'config', 'credentials.json')
+
+        with open(config_path, 'r', encoding='utf-8') as f:
             config_data = json.load(f)
-        with open('config/credentials.json', 'r', encoding='utf-8') as f:
+        with open(credentials_path, 'r', encoding='utf-8') as f:
             credentials_data = json.load(f)
         logger.info("設定ファイルを正常に読み込みました。")
 

@@ -1,7 +1,7 @@
 import logging
 from playwright.sync_api import sync_playwright, Browser, Playwright
-from utils.config_loader import Config
-from actions.login_actions import perform_login
+from src.utils.config_loader import Config
+from src.actions.login_actions import perform_login
 
 logger = logging.getLogger(__name__)
 
