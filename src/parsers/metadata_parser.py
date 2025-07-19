@@ -1,6 +1,6 @@
 import logging
 from playwright.sync_api import Page
-from utils.config_loader import VideoMetadata
+from src.utils.config_loader import VideoMetadata
 
 logger = logging.getLogger(__name__)
 

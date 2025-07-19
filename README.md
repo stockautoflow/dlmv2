@@ -3,65 +3,56 @@
 ## 概要
 
 このツールは、設定ファイルに基づき、複数の動画を自動で処理するPythonスクリプトです。
-各動画ページにログイン状態でアクセスし、動画を再生、ネットワークログをHAR形式で保存します。
-最後に、すべてのログから特定のm3u8形式のURLと動画のメタデータを抽出し、結果を一つのYAMLファイルに集計して出力します。
-
-## 主な機能
-
-- **ルールベースの動画処理**: `config.json`で動画IDの範囲と処理するバージョン（1-3, または指定なし）を柔軟に設定できます。
-- **自動ログインとセッション維持**: 最初に一度だけログインし、以降のすべての処理でログイン状態を維持します。
-- **安定した動画再生**: キーボード操作をエミュレートすることで、クリック操作が効かない複雑なページでも安定して動画を再生します。
-- **メタデータ抽出**: 各動画ページから分類、番号、タイトルを自動で取得します。
-- **リトライ機能**: 動画処理やURL抽出に失敗した場合、設定された回数だけ自動でリトライします。
-- **構造化された出力**: 処理結果は、メタデータとバージョンごとのURLを含む、人間が読みやすいYAML形式で出力されます。
-- **モジュール化された設計**: 機能ごとにファイルが分割されており、メンテナンスや機能拡張が容易です。
+各動画ページにログイン状態でアクセスし、動画を再生、ネットワークログをリアルタイムで監視してm3u8形式のURLを抽出します。
+最後に、すべての結果を一つのYAMLファイルに集計して出力します。
 
 ## 新しいファイル構成
 
 ```
 .
-├── main.py               # アプリケーションのエントリーポイント
+├── app.py                      # アプリケーションのエントリーポイント
+├── scripts/
+│   └── create_project.py       # このプロジェクトを生成するスクリプト
 |
-├── config/               # 設定ファイル
-│   ├── config.json
-│   └── credentials.json
-|
-├── core/                 # 中核ロジック
-│   ├── browser_manager.py
-│   └── task_processor.py
-|
-├── actions/              # ブラウザ操作
-│   ├── login_actions.py
-│   └── video_actions.py
-|
-├── parsers/              # データ抽出
-│   ├── har_parser.py
-│   └── metadata_parser.py
-|
-├── reporters/            # 結果出力
-│   └── yaml_reporter.py
-|
-└── utils/                # 共通ユーティリティ
-    ├── config_loader.py
-    ├── logger_setup.py
-    └── countdown_timer.py
+└── src/                        # ソースコードルート
+    ├── config/                 # 設定ファイル
+    │   ├── config.json
+    │   └── credentials.json
+    |
+    ├── core/                   # 中核ロジック
+    │   ├── browser_manager.py
+    │   └── task_processor.py
+    |
+    ├── actions/                # ブラウザ操作
+    │   ├── login_actions.py
+    │   └── video_actions.py
+    |
+    ├── parsers/                # データ抽出
+    │   ├── url_finder.py
+    │   └── metadata_parser.py
+    |
+    ├── reporters/              # 結果出力
+    │   └── yaml_reporter.py
+    |
+    └── utils/                  # 共通ユーティリティ
+        ├── config_loader.py
+        ├── logger_setup.py
+        └── countdown_timer.py
 ```
 
 ## セットアップ手順
 
-1. **ディレクトリ作成**: このスクリプト (`create_project.py`) を実行すると、必要なすべてのディレクトリとファイルが自動で生成されます。
-
-2. **依存ライブラリのインストール**: ターミナルで以下のコマンドを実行します。
+1. **依存ライブラリのインストール**: ターミナルで以下のコマンドを実行します。
    ```bash
    pip install -r requirements.txt
    playwright install
    ```
 
-3. **認証情報の設定**: `config/credentials.json` を開き、あなたのログイン情報を入力してください。
+2. **認証情報の設定**: `src/config/credentials.json` を開き、あなたのログイン情報を入力してください。
 
 ## 実行方法
 
-ターミナルで以下のコマンドを実行します。
+プロジェクトのルートディレクトリで、以下のコマンドを実行します。
 ```bash
-python main.py
+python app.py
 ```

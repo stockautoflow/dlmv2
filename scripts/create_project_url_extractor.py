@@ -1,13 +1,22 @@
 import os
+import sys
 
 # ==============================================================================
 # プロジェクトのファイル構造と内容を定義
 # ==============================================================================
-project_files = {
-    "main.py": """
+project_structure = {
+    "app.py": """
 import logging
-from core.task_processor import TaskProcessor
-from utils.logger_setup import setup_logging
+import sys
+import os
+
+# プロジェクトのルートをシステムパスに追加
+# これにより、'src'パッケージ内のモジュールを正しくインポートできる
+project_root = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, project_root)
+
+from src.core.task_processor import TaskProcessor
+from src.utils.logger_setup import setup_logging
 
 def main():
     \"\"\"
@@ -29,11 +38,12 @@ if __name__ == "__main__":
     main()
 """,
 
-    "config/config.json": """
+    # --- src directory ---
+    "src/__init__.py": "",
+    "src/config/config.json": """
 {
   "login_url": "https://dip.world-family.co.jp/spdwe_login/",
   "video_url_base": "https://dip.world-family.co.jp/spdwe/movie2/",
-  "output_har_directory": "har",
   "retry_count": 2,
   "video_processing_rules": [
     {
@@ -57,18 +67,20 @@ if __name__ == "__main__":
   }
 }
 """,
-
-    "config/credentials.json": """{
-  "username": "supertrasher@gmail.com",
-  "password": "Takabon1"
+    "src/config/credentials.json": """
+{
+  "username": "YOUR_EMAIL@example.com",
+  "password": "YOUR_PASSWORD"
 }
 """,
 
-    "core/browser_manager.py": """
+    # --- core directory ---
+    "src/core/__init__.py": "",
+    "src/core/browser_manager.py": """
 import logging
 from playwright.sync_api import sync_playwright, Browser, Playwright
-from utils.config_loader import Config
-from actions.login_actions import perform_login
+from src.utils.config_loader import Config
+from src.actions.login_actions import perform_login
 
 logger = logging.getLogger(__name__)
 
@@ -115,18 +127,17 @@ class BrowserManager:
             self.playwright.stop()
             logger.info("Playwrightを停止しました。")
 """,
-
-    "core/task_processor.py": """
+    "src/core/task_processor.py": """
 import logging
 import os
 import time
 from datetime import datetime
-from core.browser_manager import BrowserManager
-from utils.config_loader import load_config
-from actions.video_actions import play_video
-from parsers.metadata_parser import extract_metadata
-from parsers.har_parser import extract_m3u8_url
-from reporters.yaml_reporter import save_results
+from src.core.browser_manager import BrowserManager
+from src.utils.config_loader import load_config
+from src.actions.video_actions import play_video
+from src.parsers.metadata_parser import extract_metadata
+from src.parsers.url_finder import UrlFinder
+from src.reporters.yaml_reporter import save_results
 
 logger = logging.getLogger(__name__)
 
@@ -171,15 +182,11 @@ class TaskProcessor:
         \"\"\" 1つの動画処理タスクをリトライロジック付きで実行する \"\"\"
         for attempt in range(self.config.retry_count + 1):
             context = None
-            ver_str = f"ver_{version}" if version is not None else "ver_none"
-            har_path = os.path.join(self.config.har_directory, f"video_{video_id}_{ver_str}.har")
-            
             try:
                 logger.info(f"--- Video ID: {video_id} (Ver: {version or 'N/A'}) の処理を開始 (試行: {attempt + 1}/{self.config.retry_count + 1}) ---")
                 
                 context = self.browser_manager.browser.new_context(
                     storage_state=self.browser_manager.storage_state,
-                    record_har_path=har_path,
                     user_agent=self.browser_manager.user_agent
                 )
                 page = context.new_page()
@@ -188,6 +195,8 @@ class TaskProcessor:
                 if version is not None:
                     video_url += f"?ver={version}"
                 
+                finder = UrlFinder(page, r"https://.*_9\\.m3u8")
+
                 page.goto(video_url, wait_until='domcontentloaded')
                 
                 if self.all_results[video_id]["metadata"] is None:
@@ -197,16 +206,14 @@ class TaskProcessor:
 
                 play_video(page, self.config)
                 
-                context.close()
-                context = None
-                logger.info(f"Video ID {video_id} Ver:{version or 'N/A'} のコンテキストを閉じ、HARを保存しました。")
-
-                url = extract_m3u8_url(har_path)
-                if not url: raise ValueError("指定されたパターンのURLが見つかりませんでした。")
+                url = finder.wait_for_url(timeout=15000)
+                
+                if not url:
+                    raise ValueError("指定されたパターンのURLが見つかりませんでした。")
 
                 self.all_results[video_id]["versions"][version] = url
                 logger.info(f"Video ID: {video_id} Ver:{version or 'N/A'} の処理に成功しました。")
-                return # 成功したのでリトライを終了
+                return
 
             except Exception as e:
                 logger.error(f"Video ID {video_id} Ver:{version or 'N/A'} の処理中にエラー (試行 {attempt + 1}): {e}")
@@ -218,6 +225,7 @@ class TaskProcessor:
             finally:
                 if context:
                     context.close()
+                    logger.info(f"Video ID {video_id} Ver:{version or 'N/A'} のコンテキストを閉じました。")
 
     def _save_final_report(self):
         \"\"\" 最終的な結果をファイルに保存する \"\"\"
@@ -229,15 +237,14 @@ class TaskProcessor:
         output_path = os.path.join(output_dir, output_filename)
         
         save_results(self.all_results, output_path, self.config.video_processing_rules)
-
-        if not any(self.all_results.values()):
-            logger.info("対象のURLは一件も見つかりませんでした。")
 """,
 
-    "actions/login_actions.py": """
+    # --- actions directory ---
+    "src/actions/__init__.py": "",
+    "src/actions/login_actions.py": """
 import logging
 from playwright.sync_api import Page, expect
-from utils.config_loader import Config
+from src.utils.config_loader import Config
 
 logger = logging.getLogger(__name__)
 
@@ -265,12 +272,11 @@ def perform_login(page: Page, config: Config):
         raise Exception("ログインに失敗しました。URLが変わりませんでした。")
     logger.info("ログイン成功を確認しました。")
 """,
-
-    "actions/video_actions.py": """
+    "src/actions/video_actions.py": """
 import logging
 from playwright.sync_api import Page
-from utils.config_loader import Config
-from utils.countdown_timer import start_countdown
+from src.utils.config_loader import Config
+from src.utils.countdown_timer import start_countdown
 
 logger = logging.getLogger(__name__)
 
@@ -302,46 +308,57 @@ def play_video(page: Page, config: Config):
     logger.info("動画の再生待機を終了します。")
 """,
 
-    "parsers/har_parser.py": """
-import json
+    # --- parsers directory ---
+    "src/parsers/__init__.py": "",
+    "src/parsers/url_finder.py": """
 import logging
 import re
+import time
+from playwright.sync_api import Page, Request
 
 logger = logging.getLogger(__name__)
 
-def extract_m3u8_url(har_path: str) -> str | None:
-    logger.info(f"HARファイルからURLを抽出します: {har_path}")
-    url_pattern = re.compile(r"https://.*_9\\.m3u8")
+class UrlFinder:
+    \"\"\"
+    Pageのネットワークリクエストを監視し、特定のパターンのURLを待機して取得する
+    \"\"\"
+    def __init__(self, page: Page, pattern: str):
+        self.page = page
+        self.pattern = re.compile(pattern)
+        self.found_url: str | None = None
+        # イベントリスナーを登録
+        self.page.on("request", self._handle_request)
 
-    try:
-        with open(har_path, 'r', encoding='utf-8') as f:
-            har_data = json.load(f)
-        
-        entries = har_data.get('log', {}).get('entries', [])
-        if not entries:
-            logger.warning(f"HARファイルにエントリが見つかりませんでした: {har_path}")
-            return None
+    def _handle_request(self, request: Request):
+        if self.found_url:
+            return
+        if self.pattern.match(request.url):
+            logger.debug(f"目的のパターンのURLを捕捉しました: {request.url}")
+            self.found_url = request.url
+            self.page.remove_listener("request", self._handle_request)
 
-        for entry in entries:
-            url = entry.get('request', {}).get('url', '')
-            if url_pattern.match(url):
-                logger.debug(f"一致するURLを発見: {url}")
-                return url
+    def wait_for_url(self, timeout: int) -> str | None:
+        \"\"\"
+        指定されたタイムアウト時間まで、URLが見つかるのを待機する
+        \"\"\"
+        start_time = time.time()
+        logger.debug(f"URLの出現を最大{timeout/1000}秒間待機します...")
+        while time.time() - start_time < (timeout / 1000):
+            if self.found_url:
+                return self.found_url
+            time.sleep(0.1)
         
-        logger.warning("指定されたパターンのURLは見つかりませんでした。")
-        return None
-    except FileNotFoundError:
-        logger.error(f"HARファイルが見つかりません: {har_path}")
-        return None
-    except Exception as e:
-        logger.error(f"HARファイルの処理中にエラーが発生しました: {e}", exc_info=True)
-        return None
+        try:
+            self.page.remove_listener("request", self._handle_request)
+        except Exception:
+            pass
+            
+        return self.found_url
 """,
-
-    "parsers/metadata_parser.py": """
+    "src/parsers/metadata_parser.py": """
 import logging
 from playwright.sync_api import Page
-from utils.config_loader import VideoMetadata
+from src.utils.config_loader import VideoMetadata
 
 logger = logging.getLogger(__name__)
 
@@ -365,7 +382,9 @@ def extract_metadata(page: Page) -> VideoMetadata | None:
         return None
 """,
 
-    "reporters/yaml_reporter.py": """
+    # --- reporters directory ---
+    "src/reporters/__init__.py": "",
+    "src/reporters/yaml_reporter.py": """
 import logging
 import os
 import yaml
@@ -435,7 +454,9 @@ def save_results(
         logger.error(f"URLのファイル保存中にエラーが発生しました: {e}", exc_info=True)
 """,
 
-    "utils/config_loader.py": """
+    # --- utils directory ---
+    "src/utils/__init__.py": "",
+    "src/utils/config_loader.py": """
 import json
 import logging
 import os
@@ -452,7 +473,6 @@ class VideoMetadata:
 class Config:
     login_url: str
     video_url_base: str
-    har_directory: str
     retry_count: int
     video_play_duration: int
     timeout_navigation: int
@@ -465,21 +485,22 @@ class Config:
 def load_config() -> Config | None:
     logger = logging.getLogger(__name__)
     try:
-        with open('config/config.json', 'r', encoding='utf-8') as f:
+        # configディレクトリのパスをスクリプトからの相対パスで指定
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        config_path = os.path.join(base_dir, '..', 'config', 'config.json')
+        credentials_path = os.path.join(base_dir, '..', 'config', 'credentials.json')
+
+        with open(config_path, 'r', encoding='utf-8') as f:
             config_data = json.load(f)
-        with open('config/credentials.json', 'r', encoding='utf-8') as f:
+        with open(credentials_path, 'r', encoding='utf-8') as f:
             credentials_data = json.load(f)
         logger.info("設定ファイルを正常に読み込みました。")
-
-        har_dir = config_data.get('output_har_directory', 'har')
-        os.makedirs(har_dir, exist_ok=True)
 
         timeout_settings = config_data.get('timeout_ms', {})
         
         return Config(
             login_url=config_data.get('login_url'),
             video_url_base=config_data.get('video_url_base'),
-            har_directory=har_dir,
             retry_count=config_data.get('retry_count', 2),
             video_processing_rules=config_data.get('video_processing_rules', []),
             video_play_duration=config_data.get('wait_options', {}).get('video_play_duration_sec', 60),
@@ -496,8 +517,7 @@ def load_config() -> Config | None:
         logger.error(f"設定の読み込み中にエラーが発生しました: {e}")
         return None
 """,
-
-    "utils/logger_setup.py": """
+    "src/utils/logger_setup.py": """
 import logging
 import os
 from datetime import datetime
@@ -536,8 +556,7 @@ def setup_logging():
     logger.addHandler(file_handler)
     logger.addHandler(console_handler)
 """,
-
-    "utils/countdown_timer.py": """
+    "src/utils/countdown_timer.py": """
 import time
 import sys
 import logging
@@ -561,12 +580,14 @@ def start_countdown(duration_sec: int):
     sys.stdout.write("\\n")
 """,
 
-    "requirements.txt": """playwright
+    # --- Other files ---
+    "requirements.txt": """
+playwright
 pyyaml
-yt-dlp""",
-
-    ".gitignore": """# 設定ファイル
-config/credentials.json
+""",
+    ".gitignore": """
+# 設定ファイル
+src/config/credentials.json
 
 # 出力ディレクトリ
 har/
@@ -578,88 +599,74 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+src/__pycache__/
+src/*/__pycache__/
 
 # IDE/Editor
 .vscode/
 .idea/
-
-input/
-old/
-downloader/VIDEO/
-
 """,
-
     "README.md": """
 # 動画再生・ネットワークログ自動保存ツール
 
 ## 概要
 
 このツールは、設定ファイルに基づき、複数の動画を自動で処理するPythonスクリプトです。
-各動画ページにログイン状態でアクセスし、動画を再生、ネットワークログをHAR形式で保存します。
-最後に、すべてのログから特定のm3u8形式のURLと動画のメタデータを抽出し、結果を一つのYAMLファイルに集計して出力します。
-
-## 主な機能
-
-- **ルールベースの動画処理**: `config.json`で動画IDの範囲と処理するバージョン（1-3, または指定なし）を柔軟に設定できます。
-- **自動ログインとセッション維持**: 最初に一度だけログインし、以降のすべての処理でログイン状態を維持します。
-- **安定した動画再生**: キーボード操作をエミュレートすることで、クリック操作が効かない複雑なページでも安定して動画を再生します。
-- **メタデータ抽出**: 各動画ページから分類、番号、タイトルを自動で取得します。
-- **リトライ機能**: 動画処理やURL抽出に失敗した場合、設定された回数だけ自動でリトライします。
-- **構造化された出力**: 処理結果は、メタデータとバージョンごとのURLを含む、人間が読みやすいYAML形式で出力されます。
-- **モジュール化された設計**: 機能ごとにファイルが分割されており、メンテナンスや機能拡張が容易です。
+各動画ページにログイン状態でアクセスし、動画を再生、ネットワークログをリアルタイムで監視してm3u8形式のURLを抽出します。
+最後に、すべての結果を一つのYAMLファイルに集計して出力します。
 
 ## 新しいファイル構成
 
 ```
 .
-├── main.py               # アプリケーションのエントリーポイント
+├── app.py                      # アプリケーションのエントリーポイント
+├── scripts/
+│   └── create_project.py       # このプロジェクトを生成するスクリプト
 |
-├── config/               # 設定ファイル
-│   ├── config.json
-│   └── credentials.json
-|
-├── core/                 # 中核ロジック
-│   ├── browser_manager.py
-│   └── task_processor.py
-|
-├── actions/              # ブラウザ操作
-│   ├── login_actions.py
-│   └── video_actions.py
-|
-├── parsers/              # データ抽出
-│   ├── har_parser.py
-│   └── metadata_parser.py
-|
-├── reporters/            # 結果出力
-│   └── yaml_reporter.py
-|
-└── utils/                # 共通ユーティリティ
-    ├── config_loader.py
-    ├── logger_setup.py
-    └── countdown_timer.py
+└── src/                        # ソースコードルート
+    ├── config/                 # 設定ファイル
+    │   ├── config.json
+    │   └── credentials.json
+    |
+    ├── core/                   # 中核ロジック
+    │   ├── browser_manager.py
+    │   └── task_processor.py
+    |
+    ├── actions/                # ブラウザ操作
+    │   ├── login_actions.py
+    │   └── video_actions.py
+    |
+    ├── parsers/                # データ抽出
+    │   ├── url_finder.py
+    │   └── metadata_parser.py
+    |
+    ├── reporters/              # 結果出力
+    │   └── yaml_reporter.py
+    |
+    └── utils/                  # 共通ユーティリティ
+        ├── config_loader.py
+        ├── logger_setup.py
+        └── countdown_timer.py
 ```
 
 ## セットアップ手順
 
-1. **ディレクトリ作成**: このスクリプト (`create_project.py`) を実行すると、必要なすべてのディレクトリとファイルが自動で生成されます。
-
-2. **依存ライブラリのインストール**: ターミナルで以下のコマンドを実行します。
+1. **依存ライブラリのインストール**: ターミナルで以下のコマンドを実行します。
    ```bash
    pip install -r requirements.txt
    playwright install
    ```
 
-3. **認証情報の設定**: `config/credentials.json` を開き、あなたのログイン情報を入力してください。
+2. **認証情報の設定**: `src/config/credentials.json` を開き、あなたのログイン情報を入力してください。
 
 ## 実行方法
 
-ターミナルで以下のコマンドを実行します。
+プロジェクトのルートディレクトリで、以下のコマンドを実行します。
 ```bash
-python main.py
+python app.py
 ```
 """
 }
-
 
 # ==============================================================================
 # プロジェクト生成のメインロジック
@@ -669,31 +676,38 @@ def create_project():
     project_filesディクショナリに基づいてプロジェクトのディレクトリとファイルを生成する
     """
     print("プロジェクトの生成を開始します...")
+    
+    # このスクリプトが置かれているディレクトリを取得
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    # プロジェクトのルートは一つ上の階層
+    project_root = os.path.dirname(script_dir)
 
-    for file_path, content in project_files.items():
+    for relative_path, content in project_structure.items():
+        # プロジェクトルートからの絶対パスを生成
+        file_path = os.path.join(project_root, relative_path)
+        
         # ディレクトリパスを取得
         dir_name = os.path.dirname(file_path)
 
         # ディレクトリが存在しない場合は作成
         if dir_name and not os.path.exists(dir_name):
             os.makedirs(dir_name)
-            print(f"  - ディレクトリを作成しました: {dir_name}/")
+            print(f"  - ディレクトリを作成しました: {os.path.relpath(dir_name, project_root)}/")
 
         # ファイルを作成して内容を書き込む
         try:
             with open(file_path, 'w', encoding='utf-8') as f:
-                # contentの先頭の不要な改行やインデントを削除
                 f.write(content.strip())
-            print(f"  - ファイルを作成しました: {file_path}")
+            print(f"  - ファイルを作成しました: {os.path.relpath(file_path, project_root)}")
         except IOError as e:
             print(f"  - エラー: {file_path} の作成に失敗しました。 {e}")
 
-    print("\nプロジェクトの生成が完了しました。")
+    print("\\nプロジェクトの生成が完了しました。")
     print("次に、以下のコマンドを実行してください:")
     print("1. pip install -r requirements.txt")
     print("2. playwright install")
-    print("3. config/credentials.json に認証情報を入力してください。")
-    print("4. python main.py でスクリプトを実行します。")
+    print("3. src/config/credentials.json に認証情報を入力してください。")
+    print("4. python app.py でスクリプトを実行します。")
 
 if __name__ == "__main__":
     create_project()
