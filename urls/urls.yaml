@@ -1,0 +1,1611 @@
+- id: 1
+  lesson: Sing Along!
+  song_number: 1-1
+  title: What's Your Name? (Characters)
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/3aff237a40cb46fd8d9663300055b47c/3aff237a40cb46fd8d9663300055b47c_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/e17a424ac200416995143d66c6813a98/e17a424ac200416995143d66c6813a98_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/a23e1470447b4bb9b03ce870e9a0e0ee/a23e1470447b4bb9b03ce870e9a0e0ee_9.m3u8
+- id: 2
+  lesson: Sing Along!
+  song_number: 1-2
+  title: What's Your Name? (Children)
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/48023ce9e0bc4cd7a005ee40788161c8/48023ce9e0bc4cd7a005ee40788161c8_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/8905d97bdebd4bf588740ead154319fc/8905d97bdebd4bf588740ead154319fc_9.m3u8
+  - ver: 3
+    status: ERROR
+- id: 3
+  lesson: Sing Along!
+  song_number: 1-3
+  title: The Introduction Song (Minnie)
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/5c1d161bbbb349f7983cc0cfa77ecf03/5c1d161bbbb349f7983cc0cfa77ecf03_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/1b1fd4a263c24dc99843e84d10bec9da/1b1fd4a263c24dc99843e84d10bec9da_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/95a2f4ef411f45228dce4618b6e1242b/95a2f4ef411f45228dce4618b6e1242b_9.m3u8
+- id: 4
+  lesson: Sing Along!
+  song_number: 1-4
+  title: The Introduction Song (Donald)
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/73c7474d5d0e4e4eb31aab493fcb95e8/73c7474d5d0e4e4eb31aab493fcb95e8_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/72b7112332af46909366aebac094ac20/72b7112332af46909366aebac094ac20_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/1dd5209f070c40dfa37a26d98097989f/1dd5209f070c40dfa37a26d98097989f_9.m3u8
+- id: 5
+  lesson: Sing Along!
+  song_number: 1-5
+  title: What's in Your Basket?
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/2f678ea499e4416a9744ec89fa8c44d8/2f678ea499e4416a9744ec89fa8c44d8_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/e60cf574f441490a9ca5fda559e6990d/e60cf574f441490a9ca5fda559e6990d_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/a7c39b95716e43f7a8f37643c524274e/a7c39b95716e43f7a8f37643c524274e_9.m3u8
+- id: 6
+  lesson: Sing Along!
+  song_number: 1-6
+  title: The ABC Song
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/b2cdb7715c6e40b385d8699deca57c26/b2cdb7715c6e40b385d8699deca57c26_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/244626328c694ee683cc7fc1d45cdbab/244626328c694ee683cc7fc1d45cdbab_9.m3u8
+  - ver: 3
+    status: ERROR
+- id: 7
+  lesson: Sing Along!
+  song_number: 1-7
+  title: Pluto's Song
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/0a0a46371133412ebde2dd4842a9215b/0a0a46371133412ebde2dd4842a9215b_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/ea3d0b4876314f598b89c5ae9a0f3bf1/ea3d0b4876314f598b89c5ae9a0f3bf1_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/9758d38b08e441c49fafe6b5137fa0fa/9758d38b08e441c49fafe6b5137fa0fa_9.m3u8
+- id: 8
+  lesson: Sing Along!
+  song_number: 1-8
+  title: Mickey the Magician
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/070bf21483944140be7f8e61506cd8a3/070bf21483944140be7f8e61506cd8a3_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/1b23f9cc590e4c3e93ff3dc0b28e62b9/1b23f9cc590e4c3e93ff3dc0b28e62b9_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/7a04638b4aaf496e91993a3ef8e649c0/7a04638b4aaf496e91993a3ef8e649c0_9.m3u8
+- id: 9
+  lesson: Sing Along!
+  song_number: 1-9
+  title: Let's Clap for Mickey
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/5d4840483f644be9b6d2cc71cf37c134/5d4840483f644be9b6d2cc71cf37c134_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/50ca234695de416fab46b7cb33fd19ae/50ca234695de416fab46b7cb33fd19ae_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/66b04b31068e4f28a2076cbecfd8c0e9/66b04b31068e4f28a2076cbecfd8c0e9_9.m3u8
+- id: 10
+  lesson: Sing Along!
+  song_number: 1-10
+  title: The Spelling Song
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/a79427d4705b4aeb8e535681e3c5deb4/a79427d4705b4aeb8e535681e3c5deb4_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/e1577541f33548cdabf1dc68ed922715/e1577541f33548cdabf1dc68ed922715_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/d80d6a0a376543bebeeb8444ccb35b01/d80d6a0a376543bebeeb8444ccb35b01_9.m3u8
+- id: 11
+  lesson: Sing Along!
+  song_number: 1-11
+  title: The Thank You Song
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/9f4b04c0b5934979ae0796777c57bc1f/9f4b04c0b5934979ae0796777c57bc1f_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/57d30b6ef0b542ca91f22406b1467e27/57d30b6ef0b542ca91f22406b1467e27_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/7a72dc431a854aacac1e0307add0c153/7a72dc431a854aacac1e0307add0c153_9.m3u8
+- id: 12
+  lesson: Sing Along!
+  song_number: 2-1
+  title: Huey, Dewey, and Louie
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/4e21985ac0854d9d948f9ed221c3b678/4e21985ac0854d9d948f9ed221c3b678_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/735aa584d92f4bb194495df0b3fd9ae1/735aa584d92f4bb194495df0b3fd9ae1_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/ba8228db903b475ca7639fcdc8a7f4fc/ba8228db903b475ca7639fcdc8a7f4fc_9.m3u8
+- id: 13
+  lesson: Sing Along!
+  song_number: 2-2
+  title: Huey Takes a Red Balloon
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/2e7c04fbaf784e03b94590f67e675a80/2e7c04fbaf784e03b94590f67e675a80_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/95ff2fee8f384d40a3a6399c399cb9f7/95ff2fee8f384d40a3a6399c399cb9f7_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/2aad1e0a62124fb7810d8ba9ba8929f4/2aad1e0a62124fb7810d8ba9ba8929f4_9.m3u8
+- id: 14
+  lesson: Sing Along!
+  song_number: 2-3
+  title: Goofy Is Sleeping in a Red Bed
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/a9fa23d22ea747f38f7bd8c4d6e9fb87/a9fa23d22ea747f38f7bd8c4d6e9fb87_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/37b4f6db04ea487484356e352920e7cc/37b4f6db04ea487484356e352920e7cc_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/bf8e89f721394944bed63a9229c7188b/bf8e89f721394944bed63a9229c7188b_9.m3u8
+- id: 15
+  lesson: Sing Along!
+  song_number: 2-4
+  title: Huey Is Sitting at the Table
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/a9068da0058e4d0ab5bb88af0594c88e/a9068da0058e4d0ab5bb88af0594c88e_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/28eaf90b17e94d7990dc3a54b1fb1e38/28eaf90b17e94d7990dc3a54b1fb1e38_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/6f22f00f1725435bbe6b3fc08d0ad657/6f22f00f1725435bbe6b3fc08d0ad657_9.m3u8
+- id: 16
+  lesson: Sing Along!
+  song_number: 2-5
+  title: Look! Where? Over There!
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/fabc82095a7b4cdbb78a03e79419a0e0/fabc82095a7b4cdbb78a03e79419a0e0_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/d924f6497d6c4a6ea167db867bf53f4f/d924f6497d6c4a6ea167db867bf53f4f_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00006/5d20f0c68e8f4cbdbc92294c76461c9c/5d20f0c68e8f4cbdbc92294c76461c9c_9.m3u8
+- id: 17
+  lesson: Sing Along!
+  song_number: 2-6
+  title: Around and Around
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/644f2bfa1c2a4af49f31cfd8607dc628/644f2bfa1c2a4af49f31cfd8607dc628_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/20ffcb28dfe54b67bd7b866fd18ea312/20ffcb28dfe54b67bd7b866fd18ea312_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/e74c408249cb48eaa8201f5614225c95/e74c408249cb48eaa8201f5614225c95_9.m3u8
+- id: 18
+  lesson: Sing Along!
+  song_number: 2-7
+  title: Up, Down
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/cbceaeb4255a4b9ea3765b45e5de5200/cbceaeb4255a4b9ea3765b45e5de5200_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/f88197dc1d934b0abf89cb18d71193e1/f88197dc1d934b0abf89cb18d71193e1_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/a30789505c7b4acf87056a2739e1b49c/a30789505c7b4acf87056a2739e1b49c_9.m3u8
+- id: 19
+  lesson: Sing Along!
+  song_number: 2-8
+  title: Clap Your Hands!
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/0377b9086d454e2188452a36b7538767/0377b9086d454e2188452a36b7538767_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/3bf4d09035dd444f9e34c5ee7a1c14a5/3bf4d09035dd444f9e34c5ee7a1c14a5_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/31481122edc3477da31e2322579ee8a7/31481122edc3477da31e2322579ee8a7_9.m3u8
+- id: 20
+  lesson: Sing Along!
+  song_number: 2-9
+  title: Pluto's Birthday Song
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/a4611ab47bc244efa08e631de6cdd1fa/a4611ab47bc244efa08e631de6cdd1fa_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/81ff67a170bb4b4181421b5ea376db66/81ff67a170bb4b4181421b5ea376db66_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/6b0dfeb87b0b4f94a6ec2078d1d56ff9/6b0dfeb87b0b4f94a6ec2078d1d56ff9_9.m3u8
+- id: 21
+  lesson: Sing Along!
+  song_number: 2-10
+  title: Birthday, Birthday
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/4f2917bc2ec64db58d0339b4054c2f6a/4f2917bc2ec64db58d0339b4054c2f6a_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/99bb4a741fce48f0b602d59413413d1d/99bb4a741fce48f0b602d59413413d1d_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/dc37a8e0198344ceb6abd5e8aeb33ef1/dc37a8e0198344ceb6abd5e8aeb33ef1_9.m3u8
+- id: 22
+  lesson: Sing Along!
+  song_number: 2-11
+  title: What Does a Duck Say？
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/36d5b45f547640b0b71e3d9199ee1e27/36d5b45f547640b0b71e3d9199ee1e27_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/bc9dc27011844e519c51aded57d71ae2/bc9dc27011844e519c51aded57d71ae2_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00011/f265c286b1f941cf962f8a91191e7dd7/f265c286b1f941cf962f8a91191e7dd7_9.m3u8
+- id: 23
+  lesson: Sing Along!
+  song_number: 2-12
+  title: Let's Have a Birthday Party
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/7c4b2aee9f3d4c2793d8b1fa7547bab3/7c4b2aee9f3d4c2793d8b1fa7547bab3_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/927551876d154210898cce3e1da96aff/927551876d154210898cce3e1da96aff_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/1985120e2a214dce8c15f37b4f34e7ea/1985120e2a214dce8c15f37b4f34e7ea_9.m3u8
+- id: 24
+  lesson: Sing Along!
+  song_number: 2-13
+  title: Ten Little Candles
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/38aae474795b43fcaf33b064f76fc973/38aae474795b43fcaf33b064f76fc973_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/6def8d2056ee4b90a0041db926a3bbd9/6def8d2056ee4b90a0041db926a3bbd9_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/8ae2e71beb8441cfb497611721c44db7/8ae2e71beb8441cfb497611721c44db7_9.m3u8
+- id: 25
+  lesson: Sing Along!
+  song_number: 3-1
+  title: Flour, Sugar, Milk, and Butter
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/6abfe58287014fa3bb0ed10d8ca08b78/6abfe58287014fa3bb0ed10d8ca08b78_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/88900a877bd44f1c857afbc0e94b0f07/88900a877bd44f1c857afbc0e94b0f07_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/cf86d32afc7a484ab23327c78fc156d3/cf86d32afc7a484ab23327c78fc156d3_9.m3u8
+- id: 26
+  lesson: Sing Along!
+  song_number: 3-2
+  title: Taking Turns
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/f0ca97aa94ed47248f6abc64d4ce3060/f0ca97aa94ed47248f6abc64d4ce3060_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/863e4ecca28d4486a9e67a75304c7a7b/863e4ecca28d4486a9e67a75304c7a7b_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/21ab64d7c56f4aca8ca61533e4c2d133/21ab64d7c56f4aca8ca61533e4c2d133_9.m3u8
+- id: 27
+  lesson: Sing Along!
+  song_number: 3-3
+  title: Ticktock
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/b072af68d5144fa3963def3dbd634a27/b072af68d5144fa3963def3dbd634a27_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/b30619fa1be14ba8a24f506f7e8854fe/b30619fa1be14ba8a24f506f7e8854fe_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/35e424c86ffe479e84b23ae62773d9ce/35e424c86ffe479e84b23ae62773d9ce_9.m3u8
+- id: 28
+  lesson: Sing Along!
+  song_number: 3-4
+  title: Mickey Mouse's House
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/6ad5a71827d1444d935a4db1b75e852c/6ad5a71827d1444d935a4db1b75e852c_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/091a0b84dabf410db2d27f06d7b1bc90/091a0b84dabf410db2d27f06d7b1bc90_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/57c0a531977749ac83723f558083abda/57c0a531977749ac83723f558083abda_9.m3u8
+- id: 29
+  lesson: Sing Along!
+  song_number: 3-5
+  title: Knock, Knock, Knock!
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/b98c2bdbc7ff461482771b0a4bccaf2c/b98c2bdbc7ff461482771b0a4bccaf2c_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/2abfe97c2cb94d469ea7904f316d00dc/2abfe97c2cb94d469ea7904f316d00dc_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/d1fe52f765d64e0b9f7f323d8f55a16a/d1fe52f765d64e0b9f7f323d8f55a16a_9.m3u8
+- id: 30
+  lesson: Sing Along!
+  song_number: 3-6
+  title: Where Is Mickey?
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/4c6dfd2379934edc9e21cc31dab07a70/4c6dfd2379934edc9e21cc31dab07a70_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/def42d973b8c4004975fc8203dd1cd7f/def42d973b8c4004975fc8203dd1cd7f_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/8eccd927aec04c639113af64d3ce5249/8eccd927aec04c639113af64d3ce5249_9.m3u8
+- id: 31
+  lesson: Sing Along!
+  song_number: 3-7
+  title: When Pluto Is Happy
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/0a38ccc6f2844756b12e273d6dfc6b1b/0a38ccc6f2844756b12e273d6dfc6b1b_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/478984ef623e4ead882d155a00c53210/478984ef623e4ead882d155a00c53210_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/f20dbcee1b464d37a5b974b60f960fb7/f20dbcee1b464d37a5b974b60f960fb7_9.m3u8
+- id: 32
+  lesson: Sing Along!
+  song_number: 3-8
+  title: If You're Happy
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/1f31e5c0a11242ba8cfc7f5d21db36c8/1f31e5c0a11242ba8cfc7f5d21db36c8_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/7504477da2c94269820f450a493e746e/7504477da2c94269820f450a493e746e_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/2c983106a6324faabd07b3a24ce8aa56/2c983106a6324faabd07b3a24ce8aa56_9.m3u8
+- id: 33
+  lesson: Sing Along!
+  song_number: 3-9
+  title: Balloons
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/995e4684e59a45f491e9ce8388256487/995e4684e59a45f491e9ce8388256487_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/fdf8094170b94869bc950fb401825ac7/fdf8094170b94869bc950fb401825ac7_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/96eeffb1be0643668b4acd29efb6f8db/96eeffb1be0643668b4acd29efb6f8db_9.m3u8
+- id: 34
+  lesson: Sing Along!
+  song_number: 3-10
+  title: How Old Are You?
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/609161c318f84d2daf7f365191da1fca/609161c318f84d2daf7f365191da1fca_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/40573ff485694fe69f71886218e1aa42/40573ff485694fe69f71886218e1aa42_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/956a49cddbe344629d1c9cfebb353970/956a49cddbe344629d1c9cfebb353970_9.m3u8
+- id: 35
+  lesson: Sing Along!
+  song_number: 3-11
+  title: Happy Birthday to You
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/90c6669082e14b0a867ddbe5f58f40ea/90c6669082e14b0a867ddbe5f58f40ea_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/724830204c91461e8f818a8429ee8549/724830204c91461e8f818a8429ee8549_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/6504074b97c949c9a38cee5e60de6d41/6504074b97c949c9a38cee5e60de6d41_9.m3u8
+- id: 36
+  lesson: Sing Along!
+  song_number: 3-12
+  title: The Wishing Song
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/ca1a54b970ed4fa6ab9e08bf961dcedc/ca1a54b970ed4fa6ab9e08bf961dcedc_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/b264a78528834cdfb6b3802fb7ee6617/b264a78528834cdfb6b3802fb7ee6617_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/22b89110bfd04186af4a0efe27a04289/22b89110bfd04186af4a0efe27a04289_9.m3u8
+- id: 37
+  lesson: Sing Along!
+  song_number: 3-13
+  title: Five Little Candles Burning
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/63c7f63cca0d43f8b90b488d85ef1054/63c7f63cca0d43f8b90b488d85ef1054_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/48f99812ed194ad0ac82eeeb02a68b28/48f99812ed194ad0ac82eeeb02a68b28_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/ed4d160cbe654ac48a9c7aec61261d5c/ed4d160cbe654ac48a9c7aec61261d5c_9.m3u8
+- id: 38
+  lesson: Sing Along!
+  song_number: 3-14
+  title: Birthday Cake Is Good
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/3f6df749396d489ca5e083fb85b89d35/3f6df749396d489ca5e083fb85b89d35_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/559df356577f4793be524924eed0cb61/559df356577f4793be524924eed0cb61_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/d2fc7bdc58194be18692a9b0725396e0/d2fc7bdc58194be18692a9b0725396e0_9.m3u8
+- id: 39
+  lesson: Sing Along!
+  song_number: 3-15
+  title: Birthday Gifts
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/dd89be2b43f7459fb5c2337f1e62484a/dd89be2b43f7459fb5c2337f1e62484a_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/519bc5a14a1b479eb815c77aabf0462d/519bc5a14a1b479eb815c77aabf0462d_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/5553ac2155454a58bc465d804a662b8a/5553ac2155454a58bc465d804a662b8a_9.m3u8
+- id: 40
+  lesson: Sing Along!
+  song_number: 3-16
+  title: Mickey and His Friends
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/6b4d4b4080644922b9f2b6ff09a5ad60/6b4d4b4080644922b9f2b6ff09a5ad60_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/f1c950aa725d4dd19cb3f3364eaf417c/f1c950aa725d4dd19cb3f3364eaf417c_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/3894b686de864c2c9d8bfd5b2059952e/3894b686de864c2c9d8bfd5b2059952e_9.m3u8
+- id: 41
+  lesson: Sing Along!
+  song_number: 4-1
+  title: Look Up! The Sun Is Shining
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/1b8637d9d429430e9ae2a309d0e188e1/1b8637d9d429430e9ae2a309d0e188e1_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/5e450b7f6d074036a4e876d5738d6266/5e450b7f6d074036a4e876d5738d6266_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/a52c53bc800a4dc88b872f1dc1c34a86/a52c53bc800a4dc88b872f1dc1c34a86_9.m3u8
+- id: 42
+  lesson: Sing Along!
+  song_number: 4-2
+  title: Let's Go on a Picnic
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/ee5bff965253457983f5fe49a5d4d1ef/ee5bff965253457983f5fe49a5d4d1ef_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/fc08a897513542be8028a6979beebe1b/fc08a897513542be8028a6979beebe1b_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/5cf5407efda2407bacb22bb2538f9e47/5cf5407efda2407bacb22bb2538f9e47_9.m3u8
+- id: 43
+  lesson: Sing Along!
+  song_number: 4-3
+  title: We're Packing a Picnic Basket
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/db574916644a4350a03912424ce47322/db574916644a4350a03912424ce47322_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/f1a5afb9387048b7a025f4ad7fd4a357/f1a5afb9387048b7a025f4ad7fd4a357_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/824508f584654406ab82cd7a5987004a/824508f584654406ab82cd7a5987004a_9.m3u8
+- id: 44
+  lesson: Sing Along!
+  song_number: 4-4
+  title: Away From the City
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/ab31422c5aef41dd87f76bc3fff45a04/ab31422c5aef41dd87f76bc3fff45a04_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/7abddaaf7267466ea7ca53851eabfb7a/7abddaaf7267466ea7ca53851eabfb7a_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/cb69d946ee0f4d7591bf72cd65416497/cb69d946ee0f4d7591bf72cd65416497_9.m3u8
+- id: 45
+  lesson: Sing Along!
+  song_number: 4-5
+  title: Riding Down a Country Road
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/7124f790d52f4e66add30a2bf78659cd/7124f790d52f4e66add30a2bf78659cd_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/6fbfb32268f9490bb39c43373270b60b/6fbfb32268f9490bb39c43373270b60b_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/9f08533214154b5a9f9db1f2ff938a36/9f08533214154b5a9f9db1f2ff938a36_9.m3u8
+- id: 46
+  lesson: Sing Along!
+  song_number: 4-6
+  title: Green Means Go
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/8b543ff4663041b6a84b3b8641ddc2b6/8b543ff4663041b6a84b3b8641ddc2b6_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/a310ba2dd3fe414ea0d770f7be04169b/a310ba2dd3fe414ea0d770f7be04169b_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/5b08a48805a147638ac8f1baef5979a4/5b08a48805a147638ac8f1baef5979a4_9.m3u8
+- id: 47
+  lesson: Sing Along!
+  song_number: 4-7
+  title: I Like My Rooster
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/d96de73a7f324744a666b9d6c413b898/d96de73a7f324744a666b9d6c413b898_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/8b7404bb8c0a4298b94901e987c61e08/8b7404bb8c0a4298b94901e987c61e08_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/5ec0a363047b43d284a0b9bc1578130b/5ec0a363047b43d284a0b9bc1578130b_9.m3u8
+- id: 48
+  lesson: Sing Along!
+  song_number: 4-8
+  title: Lazy Gus
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/d7c7fb11d3e543469ae882b525010857/d7c7fb11d3e543469ae882b525010857_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00007/5dbc0e0d078e4afa90c83d81d3e75268/5dbc0e0d078e4afa90c83d81d3e75268_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/f4e4cb3b26de47d4997b2d33eb32aa45/f4e4cb3b26de47d4997b2d33eb32aa45_9.m3u8
+- id: 49
+  lesson: Sing Along!
+  song_number: 4-9
+  title: Which Way?
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/d13523a2cf0a4f459fe72aacda47ec1d/d13523a2cf0a4f459fe72aacda47ec1d_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/07f84ba2054a4dba85f20f79fe9c1e77/07f84ba2054a4dba85f20f79fe9c1e77_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/be2e0c1c27a64fcab15e478262d6cf27/be2e0c1c27a64fcab15e478262d6cf27_9.m3u8
+- id: 50
+  lesson: Sing Along!
+  song_number: 4-10
+  title: Where Is Your Right Hand?
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/8b74c8673b2749509e24cba273933fb2/8b74c8673b2749509e24cba273933fb2_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/a7143e888a71496fb345bbded36afbbe/a7143e888a71496fb345bbded36afbbe_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/f78b962c266145e8aeb870592018fdd2/f78b962c266145e8aeb870592018fdd2_9.m3u8
+- id: 51
+  lesson: Sing Along!
+  song_number: 5-1
+  title: We're Going to Plant a Tree
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/ec82a05a1e5d49f3b3dbd270faee7845/ec82a05a1e5d49f3b3dbd270faee7845_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/f4029d0c3b154cc9a52b30d6269a1e2c/f4029d0c3b154cc9a52b30d6269a1e2c_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/7f05eaa5042642a79754dfc9b3a33bfa/7f05eaa5042642a79754dfc9b3a33bfa_9.m3u8
+- id: 52
+  lesson: Sing Along!
+  song_number: 5-2
+  title: The Tree in the Hole
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/14c91a8ae2b7425e8c22e572b75a6207/14c91a8ae2b7425e8c22e572b75a6207_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/5cfb52c9b46648f19cf9fdc8902060e2/5cfb52c9b46648f19cf9fdc8902060e2_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/aeac55552cb940878b6a57dfe7e36eb8/aeac55552cb940878b6a57dfe7e36eb8_9.m3u8
+- id: 53
+  lesson: Sing Along!
+  song_number: 5-3
+  title: Sitting in a Little Boat
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/3b466ce2370b432c90fc64d516fec8f3/3b466ce2370b432c90fc64d516fec8f3_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/d90db4f4d14c42148bae17842f58a044/d90db4f4d14c42148bae17842f58a044_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/cd1942de77044c2697127dc66cd66bf3/cd1942de77044c2697127dc66cd66bf3_9.m3u8
+- id: 54
+  lesson: Sing Along!
+  song_number: 5-4
+  title: Jump - Splash! Into the Water
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/13e02071c6be47c0b5c0c6813e4a14d1/13e02071c6be47c0b5c0c6813e4a14d1_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/401efe5e9d4b4e20b57bb57ef172a70f/401efe5e9d4b4e20b57bb57ef172a70f_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/d5062066fa374779b869c81f4ac3e511/d5062066fa374779b869c81f4ac3e511_9.m3u8
+- id: 55
+  lesson: Sing Along!
+  song_number: 5-5
+  title: How Deep Is the Water?
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/a8eb697501514217b8f30bbb2906af0f/a8eb697501514217b8f30bbb2906af0f_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/8f5c828e759c4812a451a6c4a4e347e2/8f5c828e759c4812a451a6c4a4e347e2_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/b243eb6cdfcc40dfb7b1f12211c96f82/b243eb6cdfcc40dfb7b1f12211c96f82_9.m3u8
+- id: 56
+  lesson: Sing Along!
+  song_number: 5-6
+  title: Look at Me!
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/57c60996633a431083f3ef2a997b0642/57c60996633a431083f3ef2a997b0642_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/489b109959254fafa3a3e5b1c67e0b4a/489b109959254fafa3a3e5b1c67e0b4a_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/6697c701b6634175bac2d721f4a68b9f/6697c701b6634175bac2d721f4a68b9f_9.m3u8
+- id: 57
+  lesson: Sing Along!
+  song_number: 5-7
+  title: The Fish Eats the Worm
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/2628faad253440158d134d34ae9428a2/2628faad253440158d134d34ae9428a2_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/bd41318f0e6943598b9475039b6092a8/bd41318f0e6943598b9475039b6092a8_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/164c781ea70448729a1f69697220e158/164c781ea70448729a1f69697220e158_9.m3u8
+- id: 58
+  lesson: Sing Along!
+  song_number: 5-8
+  title: We're Hiking Through the Woods
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/26667d2d193a46c0a3e29c275bb9d409/26667d2d193a46c0a3e29c275bb9d409_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/4a636a2a37c546f485eab1102485cf4b/4a636a2a37c546f485eab1102485cf4b_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/3f045c88d30d4c57bc42855f612619b1/3f045c88d30d4c57bc42855f612619b1_9.m3u8
+- id: 59
+  lesson: Sing Along!
+  song_number: 5-9
+  title: Keep On Climbing
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/cb2e7526db934c5aa8be18eb70733f6f/cb2e7526db934c5aa8be18eb70733f6f_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/54d977922f3c49a4babcd535b151591b/54d977922f3c49a4babcd535b151591b_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/492d322e14e543368627dcbf0c94c518/492d322e14e543368627dcbf0c94c518_9.m3u8
+- id: 60
+  lesson: Sing Along!
+  song_number: 5-10
+  title: Skip Through the Field
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/5e6cf0ca9df04de1b622574f772c915a/5e6cf0ca9df04de1b622574f772c915a_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/bbaece62649c4147883c9138c23a6089/bbaece62649c4147883c9138c23a6089_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/fc4264c8ae4449dc9b648cf0d8737b0d/fc4264c8ae4449dc9b648cf0d8737b0d_9.m3u8
+- id: 61
+  lesson: Sing Along!
+  song_number: 5-11
+  title: If You Listen
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/14ef5ef9dac74f838ddecc48de53df24/14ef5ef9dac74f838ddecc48de53df24_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/915e935ef9304141a93424212161dee3/915e935ef9304141a93424212161dee3_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/e39591cd9c1c4a819c7db160ea94a6d9/e39591cd9c1c4a819c7db160ea94a6d9_9.m3u8
+- id: 62
+  lesson: Sing Along!
+  song_number: 5-12
+  title: Who Did It?
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/65d1b0850fa34e63ab293a3b46ff1e94/65d1b0850fa34e63ab293a3b46ff1e94_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/4768278dabe84540a51b56ee7ee06085/4768278dabe84540a51b56ee7ee06085_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/5e74a6ae135e435da4e6e332ad0c13db/5e74a6ae135e435da4e6e332ad0c13db_9.m3u8
+- id: 63
+  lesson: Sing Along!
+  song_number: 5-13
+  title: Twigs and Branches, Twigs and Logs
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/442a9bb075554531b39c7a753c6719ea/442a9bb075554531b39c7a753c6719ea_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/d43df14fcd04470cbe62159f9af91a06/d43df14fcd04470cbe62159f9af91a06_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/9b5d5e71c629450eb1bcf8c0ea4880a1/9b5d5e71c629450eb1bcf8c0ea4880a1_9.m3u8
+- id: 64
+  lesson: Sing Along!
+  song_number: 5-14
+  title: Yummy, Yummy Food
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/657df443cd0744b18ff2e049bc6bbdd1/657df443cd0744b18ff2e049bc6bbdd1_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/38b6f80a98a44d0898526824b6cc0514/38b6f80a98a44d0898526824b6cc0514_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/7c0fd724583940499d93d7321799755b/7c0fd724583940499d93d7321799755b_9.m3u8
+- id: 65
+  lesson: Sing Along!
+  song_number: 5-15
+  title: Fill Up the Bucket
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/77d7987389174968a19a17c0b2b0bcf7/77d7987389174968a19a17c0b2b0bcf7_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/2dff9fbd5fb44a199f4618abf922ab15/2dff9fbd5fb44a199f4618abf922ab15_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/4f96bb853c074e109a498b615bd1f803/4f96bb853c074e109a498b615bd1f803_9.m3u8
+- id: 66
+  lesson: Sing Along!
+  song_number: 5-16
+  title: Cover Your Eyes
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/2b70060771ad40b5838ad10e85e98a12/2b70060771ad40b5838ad10e85e98a12_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/819e2317d34442fa85ad2dc91ab2ae88/819e2317d34442fa85ad2dc91ab2ae88_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/e01886244b7b41bdaad0aa006781e838/e01886244b7b41bdaad0aa006781e838_9.m3u8
+- id: 67
+  lesson: Sing Along!
+  song_number: 6-1
+  title: Scrub, Scrub, Scrub
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/d7a2c2cb049e40379fdaedc69c13045a/d7a2c2cb049e40379fdaedc69c13045a_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/fc5a3fa12f0a41d18bf01167e18733a1/fc5a3fa12f0a41d18bf01167e18733a1_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/1263a6c3547a41628d4cd7cd7d5b4287/1263a6c3547a41628d4cd7cd7d5b4287_9.m3u8
+- id: 68
+  lesson: Sing Along!
+  song_number: 6-2
+  title: Clean-Up Time
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/a8d98087a00a43138815c2b61dca757f/a8d98087a00a43138815c2b61dca757f_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/bfc0167bb0fd40b0b415cc72f9ba1616/bfc0167bb0fd40b0b415cc72f9ba1616_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/59f431f534684b94adb9e1b51bad27c3/59f431f534684b94adb9e1b51bad27c3_9.m3u8
+- id: 69
+  lesson: Sing Along!
+  song_number: 6-3
+  title: Hush! Hush!
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/e6d956020fcd408c86f9c01a5c2f222a/e6d956020fcd408c86f9c01a5c2f222a_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/0c5345ae6eab4591a05b077622047d48/0c5345ae6eab4591a05b077622047d48_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/86a05ac79b374b20b8f2ddb18d03301a/86a05ac79b374b20b8f2ddb18d03301a_9.m3u8
+- id: 70
+  lesson: Sing Along!
+  song_number: 6-4
+  title: Donald’s Dream
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/7519200388d544bf9f036c836a00f396/7519200388d544bf9f036c836a00f396_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/6e584b8ff26b48b5b4953eaadc4b4581/6e584b8ff26b48b5b4953eaadc4b4581_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/bd700b8347fd4c8d8a2cd67c333ab5ac/bd700b8347fd4c8d8a2cd67c333ab5ac_9.m3u8
+- id: 71
+  lesson: Sing Along!
+  song_number: 6-5
+  title: Pull, Pull, Pull the Rope
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/dc17f91e24f842f89ddbbeffc19a915e/dc17f91e24f842f89ddbbeffc19a915e_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/2280e960f7c74121aa1ca17ab3326b31/2280e960f7c74121aa1ca17ab3326b31_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/4ef4356d7c2f4bdb84b8ea2e74b8cfd0/4ef4356d7c2f4bdb84b8ea2e74b8cfd0_9.m3u8
+- id: 72
+  lesson: Sing Along!
+  song_number: 6-6
+  title: The Baseball Song
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/1b3f32f6ed644467b85a3d421b85d98e/1b3f32f6ed644467b85a3d421b85d98e_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/6fac3d08bed54f0685e8b911539150f2/6fac3d08bed54f0685e8b911539150f2_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/c5fde94df6c1422a9891b70f87f381f3/c5fde94df6c1422a9891b70f87f381f3_9.m3u8
+- id: 73
+  lesson: Sing Along!
+  song_number: 6-7
+  title: When the Sky Is Blue
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/3a463e017f1745c29ef8f3d7f2be6082/3a463e017f1745c29ef8f3d7f2be6082_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/98b579772e6141e880eeed21a79d0775/98b579772e6141e880eeed21a79d0775_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/4ab68b9acfb34d8db821689da950450f/4ab68b9acfb34d8db821689da950450f_9.m3u8
+- id: 74
+  lesson: Sing Along!
+  song_number: 6-8
+  title: Ooo, Ooo, Ooo
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/3f422595407847dabc4a75596a4441fa/3f422595407847dabc4a75596a4441fa_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/97d1adc8d38a4ce88afce0e485744ae1/97d1adc8d38a4ce88afce0e485744ae1_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/8ee0562453504431ac61dd9f1a8a4af0/8ee0562453504431ac61dd9f1a8a4af0_9.m3u8
+- id: 75
+  lesson: Sing Along!
+  song_number: 6-9
+  title: Eyes and Ears
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/514742dc81484d2cbadf7714b93a16b3/514742dc81484d2cbadf7714b93a16b3_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/6c9d50a71c10423284e6fcc586c92f64/6c9d50a71c10423284e6fcc586c92f64_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/c7b3f5cce114423abaed5a339d01bddf/c7b3f5cce114423abaed5a339d01bddf_9.m3u8
+- id: 76
+  lesson: Sing Along!
+  song_number: 6-10
+  title: This Was a Wonderful Picnic
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/d3bd287c77be4c1f8790b194656b6d2c/d3bd287c77be4c1f8790b194656b6d2c_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/1dd10857d8114232abb2a19917067a34/1dd10857d8114232abb2a19917067a34_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/475603f7a2eb4422b4485ce5669a02ae/475603f7a2eb4422b4485ce5669a02ae_9.m3u8
+- id: 77
+  lesson: Sing Along!
+  song_number: 7-1
+  title: The Painter's Song
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/5d80d9b594114206bee2d516e7e01ebc/5d80d9b594114206bee2d516e7e01ebc_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/8ff7fd0522a442a4b0faf1e5bffbafdb/8ff7fd0522a442a4b0faf1e5bffbafdb_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/af6829f27d03490d97f2bc9b43f4340b/af6829f27d03490d97f2bc9b43f4340b_9.m3u8
+- id: 78
+  lesson: Sing Along!
+  song_number: 7-2
+  title: The Circus Train
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/c83289da977c4520ad4c0b54621ada42/c83289da977c4520ad4c0b54621ada42_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/47e2a47c9459496084a8ec9b61e6e014/47e2a47c9459496084a8ec9b61e6e014_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/b1480ad80bc54a87b93aa6fd7d3db46a/b1480ad80bc54a87b93aa6fd7d3db46a_9.m3u8
+- id: 79
+  lesson: Sing Along!
+  song_number: 7-3
+  title: Look at All the People!
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/0ffc73df3ef84e2faf430ad45eca9750/0ffc73df3ef84e2faf430ad45eca9750_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/7fc815cf8c8846eb829f532d6f23e32c/7fc815cf8c8846eb829f532d6f23e32c_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/259f72804a1f4a0d97fb57b4e4d520fd/259f72804a1f4a0d97fb57b4e4d520fd_9.m3u8
+- id: 80
+  lesson: Sing Along!
+  song_number: 7-4
+  title: The Circus Band
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/b882c1e1b5b542e394b73888b0f1b396/b882c1e1b5b542e394b73888b0f1b396_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/155c54cd37ba4c1c8abc46d62e3a20fa/155c54cd37ba4c1c8abc46d62e3a20fa_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/6346c699bf96420fa41e1375b70d81e7/6346c699bf96420fa41e1375b70d81e7_9.m3u8
+- id: 81
+  lesson: Sing Along!
+  song_number: 7-5
+  title: What Should I Buy?
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/444ee8acab6242baa9c6e8a6bd9cddf7/444ee8acab6242baa9c6e8a6bd9cddf7_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00008/0976a13c53ea4024a5f0ab945f0926f0/0976a13c53ea4024a5f0ab945f0926f0_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/eb4220929c8445cda94be7806368152c/eb4220929c8445cda94be7806368152c_9.m3u8
+- id: 82
+  lesson: Sing Along!
+  song_number: 7-6
+  title: Step Right Up!
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/161529a8938640ff8c68dea6d0328c67/161529a8938640ff8c68dea6d0328c67_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/d930db8a2f7e404e886e16d74b2e8367/d930db8a2f7e404e886e16d74b2e8367_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/dfb5006cddd247fb9730e86ab592b364/dfb5006cddd247fb9730e86ab592b364_9.m3u8
+- id: 83
+  lesson: Sing Along!
+  song_number: 7-7
+  title: The Hippopotamus
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/f480ec613bd14ceebcdd92346d55fae7/f480ec613bd14ceebcdd92346d55fae7_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/eb8078ff8090404295ada1285664c541/eb8078ff8090404295ada1285664c541_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/353ab28c18b347faacc0a762bf70e465/353ab28c18b347faacc0a762bf70e465_9.m3u8
+- id: 84
+  lesson: Sing Along!
+  song_number: 7-8
+  title: The Dancing Bears
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/8d75f69c85d24c4f831e77b758481ff3/8d75f69c85d24c4f831e77b758481ff3_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/eba03d0f81ca4ebc8c22547840c1578e/eba03d0f81ca4ebc8c22547840c1578e_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/a0fd24bdc4b64cd3be8b47db1f04b967/a0fd24bdc4b64cd3be8b47db1f04b967_9.m3u8
+- id: 85
+  lesson: Sing Along!
+  song_number: 8-1
+  title: The Little Circus Bear
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/679812984af34e7da4468a193732301c/679812984af34e7da4468a193732301c_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/558150150f2b4752a9a83b67381ef1f7/558150150f2b4752a9a83b67381ef1f7_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/e9f77f2c9b0d43aebf893b401bbccf5a/e9f77f2c9b0d43aebf893b401bbccf5a_9.m3u8
+- id: 86
+  lesson: Sing Along!
+  song_number: 8-2
+  title: The Acrobats
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/79e61bd9943f4c06b263f4defeeb567c/79e61bd9943f4c06b263f4defeeb567c_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/6b87c6086d1848888e4d8452a9fcf5f9/6b87c6086d1848888e4d8452a9fcf5f9_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/e2925877425a43a09cad273a48387d53/e2925877425a43a09cad273a48387d53_9.m3u8
+- id: 87
+  lesson: Sing Along!
+  song_number: 8-3
+  title: Hey, Mr. Strongman!
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/d75dc4e0414f4956b542ca60c9491d24/d75dc4e0414f4956b542ca60c9491d24_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/7234534da0d44b8cbdd2190ae090d4fd/7234534da0d44b8cbdd2190ae090d4fd_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/8fcaa2ae4db448249d626fa41d8fd798/8fcaa2ae4db448249d626fa41d8fd798_9.m3u8
+- id: 88
+  lesson: Sing Along!
+  song_number: 8-4
+  title: The Lion Tamer
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/20f3a340b2a54117bcef0bdcc332640b/20f3a340b2a54117bcef0bdcc332640b_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/befaf4196c0c4ef88a3ef85e491358e3/befaf4196c0c4ef88a3ef85e491358e3_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/660d947559de4f83b286e8ac7a7bfff1/660d947559de4f83b286e8ac7a7bfff1_9.m3u8
+- id: 89
+  lesson: Sing Along!
+  song_number: 8-5
+  title: The Disappearing Cat
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/65a0cd84da2b4eaf800e6ef20854feb3/65a0cd84da2b4eaf800e6ef20854feb3_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/3a464d8ab0a24ff791de0627a1283c86/3a464d8ab0a24ff791de0627a1283c86_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/03e3560800c946a9b869947c9b7b7d39/03e3560800c946a9b869947c9b7b7d39_9.m3u8
+- id: 90
+  lesson: Sing Along!
+  song_number: 8-6
+  title: Some Clowns
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/58880689419249da835804c6f1f5f228/58880689419249da835804c6f1f5f228_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/705a84c94bab465483b9e3dee73bbc72/705a84c94bab465483b9e3dee73bbc72_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/b22dbe93daf349bda47a56f0ce689ba9/b22dbe93daf349bda47a56f0ce689ba9_9.m3u8
+- id: 91
+  lesson: Sing Along!
+  song_number: 9-1
+  title: The Juggler's Jig
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/1cfa6c2fd2454bac83386b87fe7e6a08/1cfa6c2fd2454bac83386b87fe7e6a08_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/1f0f5ac8c0bf444a82c3c99441ede1da/1f0f5ac8c0bf444a82c3c99441ede1da_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/6e14725577cc4d72a345fefbe4e56e29/6e14725577cc4d72a345fefbe4e56e29_9.m3u8
+- id: 92
+  lesson: Sing Along!
+  song_number: 9-2
+  title: The Thin Man
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/9cabefbd93154a35ac791669e8f9f16d/9cabefbd93154a35ac791669e8f9f16d_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/a6cc80fd2d2f42df9fe24d92b13cfb70/a6cc80fd2d2f42df9fe24d92b13cfb70_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/bd277ca2375d4265bde96cac517bd595/bd277ca2375d4265bde96cac517bd595_9.m3u8
+- id: 93
+  lesson: Sing Along!
+  song_number: 9-3
+  title: The Tall Man
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/e45d9dfe54d244bdb168675b6f4c5c26/e45d9dfe54d244bdb168675b6f4c5c26_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/9ea1a6055838414d909d1e612c9149d2/9ea1a6055838414d909d1e612c9149d2_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/66213b09d7de4e6c8d0b33436e05f227/66213b09d7de4e6c8d0b33436e05f227_9.m3u8
+- id: 94
+  lesson: Sing Along!
+  song_number: 9-4
+  title: The Small Man
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/1b20b2ea4d014a95a54964fc1e23d268/1b20b2ea4d014a95a54964fc1e23d268_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/e30166d9a1a64b91b07d70d4f4ff7b53/e30166d9a1a64b91b07d70d4f4ff7b53_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/06354274845142be8f109929f2b8f79f/06354274845142be8f109929f2b8f79f_9.m3u8
+- id: 95
+  lesson: Sing Along!
+  song_number: 9-5
+  title: If I Were Tall
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/4d4437200f3e41fba5c6bc77ebfcfe8c/4d4437200f3e41fba5c6bc77ebfcfe8c_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/020cc4fbfff14836bca31c848d794aed/020cc4fbfff14836bca31c848d794aed_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/63af07efe1684a5ebec9479dd2efd7d8/63af07efe1684a5ebec9479dd2efd7d8_9.m3u8
+- id: 96
+  lesson: Sing Along!
+  song_number: 9-6
+  title: If I Were As Small As the Small Man
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/2fa240e8fefb42d49858fe691d9d1391/2fa240e8fefb42d49858fe691d9d1391_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/68009ccb5eea4bf29ccd6e18587f0149/68009ccb5eea4bf29ccd6e18587f0149_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/fa8cf86c0e1345aaaff98350da206a94/fa8cf86c0e1345aaaff98350da206a94_9.m3u8
+- id: 97
+  lesson: Sing Along!
+  song_number: 9-7
+  title: The Plate Spinner
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/9e9345d6f9be47a6812055f1affa4530/9e9345d6f9be47a6812055f1affa4530_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/0f408b7e14b1426b8e993619f119b88e/0f408b7e14b1426b8e993619f119b88e_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/7448d68660fe4dc4b99724f0bde89ed7/7448d68660fe4dc4b99724f0bde89ed7_9.m3u8
+- id: 98
+  lesson: Sing Along!
+  song_number: 9-8
+  title: The Elephant and the Mouse
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/b7e7f05c2115427383dafe5956a2d8fd/b7e7f05c2115427383dafe5956a2d8fd_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/7b22d3397dd54d0d9c60124bbb69bd20/7b22d3397dd54d0d9c60124bbb69bd20_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/c4a5270d35c54f879927755ad0e34f3f/c4a5270d35c54f879927755ad0e34f3f_9.m3u8
+- id: 99
+  lesson: Sing Along!
+  song_number: 9-9
+  title: The Lovery Ladies on Beautiful Horses
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/85e1d9bcf3a64bf4813b7610b0a7246c/85e1d9bcf3a64bf4813b7610b0a7246c_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/f79ed7b6b2be417aa0c988f4eb0b8a32/f79ed7b6b2be417aa0c988f4eb0b8a32_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/318129c911cb45cab9e52d6e50359e01/318129c911cb45cab9e52d6e50359e01_9.m3u8
+- id: 100
+  lesson: Sing Along!
+  song_number: 9-10
+  title: The Crazy Mixed-Up Circus
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/c77ec9cbc34243078f3decf68c442a50/c77ec9cbc34243078f3decf68c442a50_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/035da74608dd4e15bdd7e387d9d23d96/035da74608dd4e15bdd7e387d9d23d96_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/96e5cc1a108241e098f2e909aa9d50cd/96e5cc1a108241e098f2e909aa9d50cd_9.m3u8
+- id: 101
+  lesson: Sing Along!
+  song_number: 10-1
+  title: The ABC Song
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/9b5f47cf2b2c4fe4939c212fff0e24d4/9b5f47cf2b2c4fe4939c212fff0e24d4_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/9aa2feeb63cb403882f8bcd2b631abcf/9aa2feeb63cb403882f8bcd2b631abcf_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/c201c6bdd5624fe4a9734bd97c3b689c/c201c6bdd5624fe4a9734bd97c3b689c_9.m3u8
+- id: 102
+  lesson: Sing Along!
+  song_number: 10-2
+  title: The Rooster’s Song
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/514e2cd250204a7c9b18097199820022/514e2cd250204a7c9b18097199820022_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/0cadc893d02c4a1bb15e6dbe582f0383/0cadc893d02c4a1bb15e6dbe582f0383_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/fd257d7cdf1f4cd0916cc95f33d6ca30/fd257d7cdf1f4cd0916cc95f33d6ca30_9.m3u8
+- id: 103
+  lesson: Sing Along!
+  song_number: 10-3
+  title: The Alarm Clock Song
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/38b72f252cbc4291bdd9aa4dc87463b1/38b72f252cbc4291bdd9aa4dc87463b1_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/381fb1ada28e4e4eab7491ed34c98790/381fb1ada28e4e4eab7491ed34c98790_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/a055771c7e464796ab1abaf20c8ec443/a055771c7e464796ab1abaf20c8ec443_9.m3u8
+- id: 104
+  lesson: Sing Along!
+  song_number: 10-4
+  title: Every Morning
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/a1b07e5a7db14fa1933c1f087a2b1008/a1b07e5a7db14fa1933c1f087a2b1008_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/357f88aca98346e3bf03837b09a60170/357f88aca98346e3bf03837b09a60170_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/72bbc9777b6c4758932ddaddcb0d2407/72bbc9777b6c4758932ddaddcb0d2407_9.m3u8
+- id: 105
+  lesson: Sing Along!
+  song_number: 10-5
+  title: When I Grow Up
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/cfc6efe3d131416dbf1808bc1b7910e6/cfc6efe3d131416dbf1808bc1b7910e6_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/e199638b4d4047bda4ebaebe70bd1e20/e199638b4d4047bda4ebaebe70bd1e20_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/387c65ef659f4adbbeecfe90ba654df6/387c65ef659f4adbbeecfe90ba654df6_9.m3u8
+- id: 106
+  lesson: Sing Along!
+  song_number: 10-6
+  title: When You Are at the Zoo
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/58a53d219bc748f9b991ac5383238520/58a53d219bc748f9b991ac5383238520_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/cf0af0676d7941a3865bc98d42343f23/cf0af0676d7941a3865bc98d42343f23_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/e70bc0b966644eb5b51397e095d265ba/e70bc0b966644eb5b51397e095d265ba_9.m3u8
+- id: 107
+  lesson: Sing Along!
+  song_number: 10-7
+  title: Which Way?
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/cc7631e83eef4b0aaef67f15a250cdf9/cc7631e83eef4b0aaef67f15a250cdf9_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/6cc43746092a416da538b7b6e22fcbb4/6cc43746092a416da538b7b6e22fcbb4_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/00a0c3b6a87144059daab93dadf82036/00a0c3b6a87144059daab93dadf82036_9.m3u8
+- id: 108
+  lesson: Sing Along!
+  song_number: 10-8
+  title: The Lion
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/e50c8743c0f04afc8dd4a5c8ea980253/e50c8743c0f04afc8dd4a5c8ea980253_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/924f1c2e232d490eaf5849cef230c79e/924f1c2e232d490eaf5849cef230c79e_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/8952d5346ff043fb91ccd3f6cc0c16e6/8952d5346ff043fb91ccd3f6cc0c16e6_9.m3u8
+- id: 109
+  lesson: Sing Along!
+  song_number: 10-9
+  title: The Tiger
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/d3e30ab1dd964b79a4ac842f2abc0581/d3e30ab1dd964b79a4ac842f2abc0581_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/83107a5af28b4b9b96a06c0718c70108/83107a5af28b4b9b96a06c0718c70108_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/6f0a2310f59d4c028e34c153a960a83a/6f0a2310f59d4c028e34c153a960a83a_9.m3u8
+- id: 110
+  lesson: Sing Along!
+  song_number: 10-10
+  title: The Different Giraffe
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/fb6a4ea03d2947dda3251e873dcc400d/fb6a4ea03d2947dda3251e873dcc400d_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/fbc92ca8dea34f4bacaa25f458fb1729/fbc92ca8dea34f4bacaa25f458fb1729_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/14cda1ae5e114cd99899573e26707b6c/14cda1ae5e114cd99899573e26707b6c_9.m3u8
+- id: 111
+  lesson: Sing Along!
+  song_number: 10-11
+  title: The Zebra
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/fafdee09685a4b6fb9494117cd4ffbab/fafdee09685a4b6fb9494117cd4ffbab_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/930389da0d524162a12e903bad0865e4/930389da0d524162a12e903bad0865e4_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/702405e29a8b457c95c0ed20c645780d/702405e29a8b457c95c0ed20c645780d_9.m3u8
+- id: 112
+  lesson: Sing Along!
+  song_number: 10-12
+  title: Five Funny Monkeys
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/4730557d2a6c4a239e90c0370813d816/4730557d2a6c4a239e90c0370813d816_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/fecebf6f9f424eb4ac9564a9f05389e3/fecebf6f9f424eb4ac9564a9f05389e3_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/857f886e1e2f4828b12a77d93e89a072/857f886e1e2f4828b12a77d93e89a072_9.m3u8
+- id: 113
+  lesson: Sing Along!
+  song_number: 10-13
+  title: When You're a Baby Kangaroo
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/52ec9bec81884072a7d5128ee74386d5/52ec9bec81884072a7d5128ee74386d5_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/f9a3d209f15047668689c3342d9c3ea8/f9a3d209f15047668689c3342d9c3ea8_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/ad5f9c7e10f7424781693fa920695b73/ad5f9c7e10f7424781693fa920695b73_9.m3u8
+- id: 114
+  lesson: Sing Along!
+  song_number: 10-14
+  title: Good Night
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00009/8afeb909890c4614a7db3bb719546db7/8afeb909890c4614a7db3bb719546db7_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/0cbd9890ab4b4211a8f841cc9357ce04/0cbd9890ab4b4211a8f841cc9357ce04_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/ecc9c22a5bf443428ab067fe0ca4777b/ecc9c22a5bf443428ab067fe0ca4777b_9.m3u8
+- id: 115
+  lesson: Sing Along!
+  song_number: 11-1
+  title: Mickey the Zookeeper
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/f53ac2153f02470a9de8e86ed3b53b22/f53ac2153f02470a9de8e86ed3b53b22_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/63b338a86d7b4a2e8a3f2a0c537af606/63b338a86d7b4a2e8a3f2a0c537af606_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/8219f53d36284ba880021d2b69eba207/8219f53d36284ba880021d2b69eba207_9.m3u8
+- id: 116
+  lesson: Sing Along!
+  song_number: 11-2
+  title: Mickey's Story
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/f553d10e202242ba8cd900097b04a503/f553d10e202242ba8cd900097b04a503_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/0b7319a3c0c44c4aa2a355a26956fb6f/0b7319a3c0c44c4aa2a355a26956fb6f_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/f6a8d00941b24ca4a0e79182c1bcec0f/f6a8d00941b24ca4a0e79182c1bcec0f_9.m3u8
+- id: 117
+  lesson: Sing Along!
+  song_number: 11-3
+  title: When You're a Detective
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/ab938168a95046ea981b987452ed828a/ab938168a95046ea981b987452ed828a_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/b5df5ceb84094e3bbc004e49924a16cb/b5df5ceb84094e3bbc004e49924a16cb_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/8b8c1615991243e6b43676b3c0476269/8b8c1615991243e6b43676b3c0476269_9.m3u8
+- id: 118
+  lesson: Sing Along!
+  song_number: 11-4
+  title: A Very Strange Mystery
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/b5151b7570dd4505a6b4b5290be1866f/b5151b7570dd4505a6b4b5290be1866f_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/94e73352a3af4d15bf0c077fbc4204be/94e73352a3af4d15bf0c077fbc4204be_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/c50dafab30c448fea863c6279a03f6f5/c50dafab30c448fea863c6279a03f6f5_9.m3u8
+- id: 119
+  lesson: Sing Along!
+  song_number: 11-5
+  title: Who Took the Peanuts?
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/e13f8169aaec4ed498ae337d94a60c8f/e13f8169aaec4ed498ae337d94a60c8f_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/8d8f6d34ef8e4740a14b53697b3f9f4a/8d8f6d34ef8e4740a14b53697b3f9f4a_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/bb37f1f9330e431b84faf03a0472a9fe/bb37f1f9330e431b84faf03a0472a9fe_9.m3u8
+- id: 120
+  lesson: Sing Along!
+  song_number: 11-6
+  title: Who Took the Peanuts?
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/eefb0e52d4be4f5ba999e59efa21c21a/eefb0e52d4be4f5ba999e59efa21c21a_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/d7064952fc2344e3ac204eced35486a1/d7064952fc2344e3ac204eced35486a1_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/801256a55f7640b083656fd7f66e244f/801256a55f7640b083656fd7f66e244f_9.m3u8
+- id: 121
+  lesson: Sing Along!
+  song_number: 11-7
+  title: Quietly, Slowly, Carefully
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/4bf27d2f05144f0d9fab284547185347/4bf27d2f05144f0d9fab284547185347_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/ed13becff03945b7b3be82c098419ef7/ed13becff03945b7b3be82c098419ef7_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/3b4b079ad6854326940f615eb97d1409/3b4b079ad6854326940f615eb97d1409_9.m3u8
+- id: 122
+  lesson: Sing Along!
+  song_number: 11-8
+  title: The Octopus
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/38f52c601ccd47f7b6e1b0ff9739eeed/38f52c601ccd47f7b6e1b0ff9739eeed_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/c06f3c0cbf8048f19801b2aae460737f/c06f3c0cbf8048f19801b2aae460737f_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/768d52104a6148d7b387a56dcc20a3d1/768d52104a6148d7b387a56dcc20a3d1_9.m3u8
+- id: 123
+  lesson: Sing Along!
+  song_number: 11-9
+  title: You Took the Peanuts!
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/3c2f2bf6dbc943a7af4ce2439144c8b2/3c2f2bf6dbc943a7af4ce2439144c8b2_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/cf1cedbd444747a39b578206266c081a/cf1cedbd444747a39b578206266c081a_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/dd05e227cb964b3bb1c22a46ae31fb7a/dd05e227cb964b3bb1c22a46ae31fb7a_9.m3u8
+- id: 124
+  lesson: Sing Along!
+  song_number: 11-10
+  title: The Zookeeper's Helpers
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/3d95657bc8514711a42e229f8f0cd5fd/3d95657bc8514711a42e229f8f0cd5fd_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/bcf8dba7fa2041748e160f85aa0c4c23/bcf8dba7fa2041748e160f85aa0c4c23_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/1bf8a3e9dae543a0b2e14cda8a461555/1bf8a3e9dae543a0b2e14cda8a461555_9.m3u8
+- id: 125
+  lesson: Sing Along!
+  song_number: 12-1
+  title: When the Sorcerer Wore His Magic Hat
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/d84e995f958b479493bade0400dbc7ce/d84e995f958b479493bade0400dbc7ce_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/27ddaaa3ed0c4eae80a3f105875151b7/27ddaaa3ed0c4eae80a3f105875151b7_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/287f01e3c54f45e89225dc7180a7cb75/287f01e3c54f45e89225dc7180a7cb75_9.m3u8
+- id: 126
+  lesson: Sing Along!
+  song_number: 12-2
+  title: Ｍickey’s Work Song
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/5f4f14be2df044e8ac91d6593212dd2f/5f4f14be2df044e8ac91d6593212dd2f_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/294c509ec7a246eba601fa2d74da64c2/294c509ec7a246eba601fa2d74da64c2_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/5a8d27ffa7864663a2f91c13bbc27935/5a8d27ffa7864663a2f91c13bbc27935_9.m3u8
+- id: 127
+  lesson: Sing Along!
+  song_number: 12-3
+  title: If I Had the Sorcerer's Magic Hat
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/b26e28aa92374a5ab5c60d81a633134b/b26e28aa92374a5ab5c60d81a633134b_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/16c4f91c61c448918bce5b3d356838d4/16c4f91c61c448918bce5b3d356838d4_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/aa70db874665476c9f52d8b0d48625e6/aa70db874665476c9f52d8b0d48625e6_9.m3u8
+- id: 128
+  lesson: Sing Along!
+  song_number: 12-4
+  title: Now That I Have This Magic Hat
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/20bdef35a2e549e0b1c34e9a454abd14/20bdef35a2e549e0b1c34e9a454abd14_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/0e6d7834b3f54aed8608a727da487ecb/0e6d7834b3f54aed8608a727da487ecb_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/5b637d0812b04bb4a58c3ab56df0e46e/5b637d0812b04bb4a58c3ab56df0e46e_9.m3u8
+- id: 129
+  lesson: Sing Along!
+  song_number: 12-5
+  title: Mickey Told the Broom
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/edfe6a7af45048e69f984c74c1276ed8/edfe6a7af45048e69f984c74c1276ed8_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/539b447ab0954d4886a3494e9998d58a/539b447ab0954d4886a3494e9998d58a_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/7d68ac74204a43cd9811987fe8aada4f/7d68ac74204a43cd9811987fe8aada4f_9.m3u8
+- id: 130
+  lesson: Sing Along!
+  song_number: 12-6
+  title: Magic Is Easy
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/5536e05443f74460bef39ef074e9d3e3/5536e05443f74460bef39ef074e9d3e3_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/05bad0c33af443b6b0187a69018fad64/05bad0c33af443b6b0187a69018fad64_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/efdca916cf1f493b951926ed5af07586/efdca916cf1f493b951926ed5af07586_9.m3u8
+- id: 131
+  lesson: Sing Along!
+  song_number: 12-7
+  title: The March of the Brooms
+  versions:
+  - ver: 1
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/cb94052cdf3246169c6b14723f20a3d2/cb94052cdf3246169c6b14723f20a3d2_9.m3u8
+  - ver: 2
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/5c27ec1c0731449a97f9d440415219fd/5c27ec1c0731449a97f9d440415219fd_9.m3u8
+  - ver: 3
+    url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/7ed775087f6c483491bd5e067ec39d68/7ed775087f6c483491bd5e067ec39d68_9.m3u8
+- id: 132
+  lesson: Play Along!
+  song_number: 1-1
+  title: Hello!
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/9f29461633e8498bbd474439da5fd53a/9f29461633e8498bbd474439da5fd53a_9.m3u8
+- id: 133
+  lesson: Play Along!
+  song_number: 1-2
+  title: Up and Down
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/d950d4a9ab0e4462b83681e84260904a/d950d4a9ab0e4462b83681e84260904a_9.m3u8
+- id: 134
+  lesson: Play Along!
+  song_number: 1-3
+  title: Busy, Buzzing Bee
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/2639602b47af4de0aca15920f0f8002c/2639602b47af4de0aca15920f0f8002c_9.m3u8
+- id: 135
+  lesson: Play Along!
+  song_number: 1-4
+  title: The Bellybutton Song
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/71985453f1f04ea7a128d5f41ede1be7/71985453f1f04ea7a128d5f41ede1be7_9.m3u8
+- id: 136
+  lesson: Play Along!
+  song_number: 1-5
+  title: Baby's in the Bathtub
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/303288870b1941caa4cb6e90ecf633e4/303288870b1941caa4cb6e90ecf633e4_9.m3u8
+- id: 137
+  lesson: Play Along!
+  song_number: 1-6
+  title: Peekaboo!
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/2ec8779909c44b9b934a36f393555aa9/2ec8779909c44b9b934a36f393555aa9_9.m3u8
+- id: 138
+  lesson: Play Along!
+  song_number: 1-7
+  title: The Bellybutton Song (2)
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/667026b3b2664fecb4056d66bb7e5a93/667026b3b2664fecb4056d66bb7e5a93_9.m3u8
+- id: 139
+  lesson: Play Along!
+  song_number: 1-8
+  title: We Like to Bounce
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/23c7d795a7fc4f01864ef653cf7aeb07/23c7d795a7fc4f01864ef653cf7aeb07_9.m3u8
+- id: 140
+  lesson: Play Along!
+  song_number: 1-9
+  title: What's Inside?
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/b9f12e64d72f45b38c8cbde32c79465d/b9f12e64d72f45b38c8cbde32c79465d_9.m3u8
+- id: 141
+  lesson: Play Along!
+  song_number: 1-10
+  title: Busy, Buzzing Bee 2
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/657188c4ac4845af9cae781798052435/657188c4ac4845af9cae781798052435_9.m3u8
+- id: 142
+  lesson: Play Along!
+  song_number: 1-11
+  title: Open Your Hands and Close Them
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/7cbe8c4cc4a8430aab87e0c0f9ebf14a/7cbe8c4cc4a8430aab87e0c0f9ebf14a_9.m3u8
+- id: 143
+  lesson: Play Along!
+  song_number: 1-12
+  title: Bye-bye, Baby!
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/a56a239717184ebe8251cd6a1b6145e4/a56a239717184ebe8251cd6a1b6145e4_9.m3u8
+- id: 144
+  lesson: Play Along!
+  song_number: 2-1
+  title: I'm Walking!
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/b4bd46ffb69d4dbabccebe142a86e90f/b4bd46ffb69d4dbabccebe142a86e90f_9.m3u8
+- id: 145
+  lesson: Play Along!
+  song_number: 2-2
+  title: Wiggly Worm
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/e97751cddd7146168c262033f94a09e9/e97751cddd7146168c262033f94a09e9_9.m3u8
+- id: 146
+  lesson: Play Along!
+  song_number: 2-3
+  title: My Ball
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/6dde22a65df24e9fba0d3269dfe6b05a/6dde22a65df24e9fba0d3269dfe6b05a_9.m3u8
+- id: 147
+  lesson: Play Along!
+  song_number: 2-4
+  title: Me and You
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/e0e26ed09a254b7aae258e8655a282b3/e0e26ed09a254b7aae258e8655a282b3_9.m3u8
+- id: 148
+  lesson: Play Along!
+  song_number: 2-5
+  title: I Like to Take a Bath
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/55de3686a7d0477d9fb5fec750a62253/55de3686a7d0477d9fb5fec750a62253_9.m3u8
+- id: 149
+  lesson: Play Along!
+  song_number: 2-6
+  title: Hopping Bunny
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/31ddd2775e8a4a67ad0d44fa2a427385/31ddd2775e8a4a67ad0d44fa2a427385_9.m3u8
+- id: 150
+  lesson: Play Along!
+  song_number: 2-7
+  title: Around the Chair
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/1975a588dd2946278a503a50813e033a/1975a588dd2946278a503a50813e033a_9.m3u8
+- id: 151
+  lesson: Play Along!
+  song_number: 2-8
+  title: Fill Up the Cup
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/4332c6ac052447c39fe1ca795604d999/4332c6ac052447c39fe1ca795604d999_9.m3u8
+- id: 152
+  lesson: Play Along!
+  song_number: 2-9
+  title: Spread Your Arms
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/da672fe719ae4d76be75dd62f1a3a91f/da672fe719ae4d76be75dd62f1a3a91f_9.m3u8
+- id: 153
+  lesson: Play Along!
+  song_number: 2-10
+  title: I Can Put My Finger on top of My head
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/82abb6edf7cc4d0eb08621539141ca47/82abb6edf7cc4d0eb08621539141ca47_9.m3u8
+- id: 154
+  lesson: Play Along!
+  song_number: 3-1
+  title: What Can You Do with a Ball?
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/07590f92aaa349b3a7ac8b10fc16dbec/07590f92aaa349b3a7ac8b10fc16dbec_9.m3u8
+- id: 155
+  lesson: Play Along!
+  song_number: 3-2
+  title: Jingle, Jingle, Jingle!
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/a1452453719e42baa909591d76067ba8/a1452453719e42baa909591d76067ba8_9.m3u8
+- id: 156
+  lesson: Play Along!
+  song_number: 3-3
+  title: Just Like Me
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/a095cfb6ca7a483798af929874fed635/a095cfb6ca7a483798af929874fed635_9.m3u8
+- id: 157
+  lesson: Play Along!
+  song_number: 3-4
+  title: My Little Car
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/bcf60b62fcef4f96a67e76ac54900569/bcf60b62fcef4f96a67e76ac54900569_9.m3u8
+- id: 158
+  lesson: Play Along!
+  song_number: 3-5
+  title: The Cup Song
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/506ccde3d2bd492e9d69fef7fc5b6327/506ccde3d2bd492e9d69fef7fc5b6327_9.m3u8
+- id: 159
+  lesson: Play Along!
+  song_number: 3-6
+  title: Rub-a-dub-dub!
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/0216a3c7072641298723da1c9e776172/0216a3c7072641298723da1c9e776172_9.m3u8
+- id: 160
+  lesson: Play Along!
+  song_number: 3-7
+  title: Sharing
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/e6a19cb7dc6143d6810892708f51e8e3/e6a19cb7dc6143d6810892708f51e8e3_9.m3u8
+- id: 161
+  lesson: Play Along!
+  song_number: 3-8
+  title: Counting
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/159b7400ab8f41b7844282f91abc109e/159b7400ab8f41b7844282f91abc109e_9.m3u8
+- id: 162
+  lesson: Play Along!
+  song_number: 3-9
+  title: Where Did It Go?
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/7f91b202310e428bb6c3e37554e8df3a/7f91b202310e428bb6c3e37554e8df3a_9.m3u8
+- id: 163
+  lesson: Play Along!
+  song_number: 3-10
+  title: A Worm Can Wiggle
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/ebca605c79fb457d8c8738939fab6cf9/ebca605c79fb457d8c8738939fab6cf9_9.m3u8
+- id: 164
+  lesson: Play Along!
+  song_number: 3-11
+  title: Froggy or Bunny?
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/d85e04f5132c484cb15a1d2ca8faeaaa/d85e04f5132c484cb15a1d2ca8faeaaa_9.m3u8
+- id: 165
+  lesson: Play Along!
+  song_number: 3-12
+  title: Play Along with Me!
+  url: https://eqh073zsdq.eq.webcdn.stream.ne.jp/www50/eqh073zsdq/jmc_pub/jmc_pd/00010/fe8c9dc81571458599927c908f4962ec/fe8c9dc81571458599927c908f4962ec_9.m3u8
