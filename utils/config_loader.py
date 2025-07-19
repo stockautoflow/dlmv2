@@ -14,7 +14,6 @@ class VideoMetadata:
 class Config:
     login_url: str
     video_url_base: str
-    har_directory: str
     retry_count: int
     video_play_duration: int
     timeout_navigation: int
@@ -25,6 +24,9 @@ class Config:
     video_processing_rules: List[Dict[str, Any]] = field(default_factory=list)
 
 def load_config() -> Config | None:
+    """
+    config/ ディレクトリから設定ファイルを読み込み、設定オブジェクトを返す
+    """
     logger = logging.getLogger(__name__)
     try:
         with open('config/config.json', 'r', encoding='utf-8') as f:
@@ -33,15 +35,11 @@ def load_config() -> Config | None:
             credentials_data = json.load(f)
         logger.info("設定ファイルを正常に読み込みました。")
 
-        har_dir = config_data.get('output_har_directory', 'har')
-        os.makedirs(har_dir, exist_ok=True)
-
         timeout_settings = config_data.get('timeout_ms', {})
         
         return Config(
             login_url=config_data.get('login_url'),
             video_url_base=config_data.get('video_url_base'),
-            har_directory=har_dir,
             retry_count=config_data.get('retry_count', 2),
             video_processing_rules=config_data.get('video_processing_rules', []),
             video_play_duration=config_data.get('wait_options', {}).get('video_play_duration_sec', 60),
