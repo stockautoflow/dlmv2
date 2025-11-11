@@ -20,12 +20,11 @@ def is_ffmpeg_installed():
     """ffmpegが利用可能か確認する"""
     return shutil.which("ffmpeg") is not None
 
-def convert_file(input_file, output_file):
+def convert_file(input_file, output_file, quality):
     """
     ffmpegを使用して単一のファイルを変換する
-    -c:v libx264 (H.264コーデック) と -c:a aac (AACコーデック) を使用し、
-    最も互換性の高いMP4コンテナに再エンコードする。
-    -loglevel error で ffmpeg の出力を抑制し、エラー時のみ表示する。
+    -c:v libx264 (H.264コーデック) と -c:a aac (AACコーデック) を使用。
+    -crf で指定された画質 (quality) でエンコードする。
     """
     # 出力ファイルが既に存在し、サイズが0より大きい場合はスキップ
     if os.path.exists(output_file) and os.path.getsize(output_file) > 0:
@@ -35,16 +34,17 @@ def convert_file(input_file, output_file):
     command = [
         "ffmpeg",
         "-i", input_file,
-        "-c:v", "libx264",  # 映像コーデックをH.264に
-        "-c:a", "aac",      # 音声コーデックをAACに
-        "-loglevel", "error", # エラー以外はログを抑制
+        "-c:v", "libx264",      # 映像コーデックをH.264に
+        "-crf", str(quality),   # ★★★ 画質 (CRF値) を指定 ★★★
+        "-c:a", "aac",          # 音声コーデックをAACに
+        "-loglevel", "error",   # エラー以外はログを抑制
         output_file
     ]
 
     try:
         # ffmpegコマンドを実行
         subprocess.run(command, check=True, capture_output=True, text=True, encoding='utf-8')
-        logger.info(f"変換成功: {output_file}")
+        logger.info(f"変換成功: {output_file} (Quality={quality})")
         return input_file, "success"
     except subprocess.CalledProcessError as e:
         logger.error(f"変換失敗: {input_file}")
@@ -57,7 +57,7 @@ def convert_file(input_file, output_file):
         logger.error(f"予期せぬエラー ({input_file}): {e}", exc_info=True)
         return input_file, "fail"
 
-def main(input_dir, output_dir, max_workers):
+def main(input_dir, output_dir, max_workers, quality):
     if not is_ffmpeg_installed():
         logger.critical("ffmpegが見つかりません。インストールしてPATHを通してください。")
         return
@@ -66,6 +66,7 @@ def main(input_dir, output_dir, max_workers):
     logger.info(f"入力ディレクトリ: {input_dir}")
     logger.info(f"出力ディレクトリ: {output_dir}")
     logger.info(f"同時実行数: {max_workers}")
+    logger.info(f"画質設定 (CRF): {quality} (値が低いほど高品質)")
 
     tasks = []
     # 入力ディレクトリを再帰的にスキャン
@@ -101,8 +102,8 @@ def main(input_dir, output_dir, max_workers):
 
     # ThreadPoolExecutorを使用して変換処理を並列実行
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        # タスクを投入
-        futures = {executor.submit(convert_file, task[0], task[1]): task for task in tasks}
+        # タスクを投入 (quality も渡す)
+        futures = {executor.submit(convert_file, task[0], task[1], quality): task for task in tasks}
         
         # 完了したものから結果を処理
         for i, future in enumerate(as_completed(futures)):
@@ -140,6 +141,12 @@ if __name__ == "__main__":
         default=max(1, os.cpu_count() // 2), # CPUコア数の半分をデフォルトに
         help="同時変換スレッド数 (デフォルト: CPUコア数の半分)"
     )
+    parser.add_argument(
+        "-q", "--quality",
+        type=int,
+        default=23,  # ★★★ 画質のデフォルト値を 23 に設定 ★★★
+        help="H.264のCRF値 (0-51)。値が低いほど高品質。デフォルト: 23"
+    )
     
     args = parser.parse_args()
     
@@ -162,4 +169,4 @@ if __name__ == "__main__":
     input_dir_abs = os.path.abspath(input_dir)
     output_dir_abs = os.path.abspath(output_dir)
 
-    main(input_dir_abs, output_dir_abs, args.workers)
+    main(input_dir_abs, output_dir_abs, args.workers, args.quality)
