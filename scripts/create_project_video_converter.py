@@ -186,7 +186,7 @@ def create_project():
     """
     project_filesディクショナリに基づいてプロジェクトのディレクトリとファイルを生成する
     """
-    print("動画ダウンローダープロジェクトの生成を開始します...")
+    print("動画Converterプロジェクトの生成を開始します...")
 
     for file_path, content in project_files.items():
         # ディレクトリパスを取得
